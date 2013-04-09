@@ -1,3 +1,5 @@
+package de.htwg.seapal.mark;
+
 import org.junit.*;
 
 import play.mvc.*;
