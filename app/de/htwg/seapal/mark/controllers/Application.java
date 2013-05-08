@@ -1,9 +1,6 @@
 package de.htwg.seapal.mark.controllers;
 
-import play.*;
 import play.mvc.*;
-
-import views.html.*;
 
 public class Application extends Controller {
   

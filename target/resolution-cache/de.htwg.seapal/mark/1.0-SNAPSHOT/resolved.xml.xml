@@ -4,7 +4,7 @@
 		module="mark"
 		revision="1.0-SNAPSHOT"
 		status="integration"
-		publication="20130409211216"
+		publication="20130508095011"
 	>
 		<description>
 		Mark
@@ -38,7 +38,7 @@
 		<dependency org="play" name="play-java-jdbc_2.10" rev="2.1.0" conf="compile->default(compile)"/>
 		<dependency org="play" name="play-java-ebean_2.10" rev="2.1.0" conf="compile->default(compile)"/>
 		<dependency org="com.google.inject" name="guice" rev="3.0" conf="compile->default(compile)"/>
-		<dependency org="de.htwg" name="util" rev="1.0-SNAPSHOT" conf="compile->default(compile)"/>
+		<dependency org="de.htwg.seapal" name="common" rev="1.0-SNAPSHOT" conf="compile->default(compile)"/>
 		<exclude org="org.scala-lang" module="scala-library" artifact="*" type="jar" ext="*" matcher="exact"/>
 		<exclude org="org.scala-lang" module="scala-compiler" artifact="*" type="jar" ext="*" matcher="exact"/>
 		<override org="org.scala-lang" module="scala-library" matcher="exact" rev="2.10.0"/>

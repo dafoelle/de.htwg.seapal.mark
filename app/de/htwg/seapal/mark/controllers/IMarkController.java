@@ -1,35 +1,43 @@
 package de.htwg.seapal.mark.controllers;
 
 import java.awt.Color;
+import java.util.Map;
+import java.util.UUID;
 
-import de.htwg.util.observer.IObservable;
+import de.htwg.seapal.common.observer.IObservable;
 
 public interface IMarkController extends IObservable{
 
-	void setMarkName(String string);	
-	String getMarkName();
-
-	double getMarkLatitude();
-	void setMarkLatitude(double latitute);
-
-	double getMarkLongitude();
-	void setMarkLongitude(double longitude);
-
-	String getMarkType();
-	void setMarkType(String type);
-
-	Boolean getMarkIsDay();
-	void setMarkIsDay(Boolean val);
+	Map<String,String> getMarks();
 	
-	Boolean getMarkIsNight();
-	void setMarkIsNight(Boolean val);
+	UUID newMark();
+	void deleteMark(UUID id);
+	void closeDB();
 	
-	Color getMarkColor();
-	void setMarkColor(Color color);
+	void setMarkName(UUID id, String string);	
+	String getMarkName(UUID id);
+
+	double getMarkLatitude(UUID id);
+	void setMarkLatitude(UUID id, double latitute);
+
+	double getMarkLongitude(UUID id);
+	void setMarkLongitude(UUID id, double longitude);
+
+	String getMarkType(UUID id);
+	void setMarkType(UUID id, String type);
+
+	Boolean getMarkIsDay(UUID id);
+	void setMarkIsDay(UUID id, Boolean val);
 	
-	String getMarkFunktion();
-	void setMarkFunction(String function);
+	Boolean getMarkIsNight(UUID id);
+	void setMarkIsNight(UUID id, Boolean val);
 	
-	String getString();
+	Color getMarkColor(UUID id);
+	void setMarkColor(UUID id, Color color);
+	
+	String getMarkFunction(UUID id);
+	void setMarkFunction(UUID id, String function);
+	
+	String getString(UUID id);
 
 }

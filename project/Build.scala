@@ -14,7 +14,8 @@ object ApplicationBuild extends Build {
     javaEbean,
     // Add your project dependencies here,
     "com.google.inject" % "guice" % "3.0",
-    "de.htwg" % "util" % "1.0-SNAPSHOT"
+    //"de.htwg" % "util" % "1.0-SNAPSHOT",
+    "de.htwg.seapal" % "common" % "1.0-SNAPSHOT"
   )
 
   val main = play.Project(appName, appVersion, appDependencies).settings(

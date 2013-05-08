@@ -3,11 +3,13 @@ package de.htwg.seapal.mark.models.impl;
 import static org.junit.Assert.*;
 
 import java.awt.Color;
+import java.util.UUID;
 
+import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
 
-import de.htwg.seapal.mark.models.mock.Mark;
+import de.htwg.seapal.mark.models.impl.Mark;
 
 public class MarkTest {
 	
@@ -16,6 +18,11 @@ public class MarkTest {
 	@Before
 	public void setup(){
 		mark = new Mark();	
+	}
+	
+	@Test 
+	public void testId() {
+		Assert.assertNotNull(mark.getId());
 	}
 	
 	@Test
@@ -33,7 +40,7 @@ public class MarkTest {
 	@Test
 	public void testFunktion() {
 		mark.setFunction("testString");
-		assertEquals("testString", mark.getFunktion());
+		assertEquals("testString", mark.getFunction());
 	}
 	
 	@Test
