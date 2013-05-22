@@ -1,6 +1,5 @@
 package de.htwg.seapal.mark.models;
 
-import java.awt.Color;
 import java.util.UUID;
 
 public interface IMark {
@@ -25,8 +24,8 @@ public interface IMark {
 	Boolean getIsNight();
 	void setIsNight(Boolean val);
 	
-	Color getColor();
-	void setColor(Color color);
+	String getColor();
+	void setColor(String color);
 	
 	String getFunction();
 	void setFunction(String function);

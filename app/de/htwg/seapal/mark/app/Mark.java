@@ -4,6 +4,10 @@ import java.io.BufferedReader;
 import java.io.File;
 import java.io.IOException;
 import java.io.InputStreamReader;
+import java.rmi.registry.LocateRegistry;
+import java.rmi.registry.Registry;
+import java.rmi.server.UnicastRemoteObject;
+
 import play.api.Application;
 import play.api.DefaultApplication;
 import play.api.Mode;
@@ -35,6 +39,19 @@ public class Mark {
 			Injector injector = Guice.createInjector(new MarkImplModule());
 			
 			IMarkController controller = injector.getInstance(IMarkController.class);
+		/*	
+			//RMI-Server Registry Registration
+			LocateRegistry.createRegistry(Registry.REGISTRY_PORT);
+			
+			Registry registry = LocateRegistry.getRegistry();
+			System.out.println("Registry connected.");
+			
+			IMarkController stub = (IMarkController)UnicastRemoteObject.exportObject(controller, 0);
+			System.out.println("Object exported.");
+			
+			registry.rebind("Seapal_Mark", stub);
+			System.out.println("Object bound to Registry.");
+		*/
 			MarkTUI tui = new MarkTUI(controller);
 			
 			InputStreamReader isr = new InputStreamReader(System.in, "UTF-8");

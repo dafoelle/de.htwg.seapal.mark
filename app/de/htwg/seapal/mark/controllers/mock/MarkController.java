@@ -1,7 +1,5 @@
 package de.htwg.seapal.mark.controllers.mock;
 
-import java.awt.Color;
-import java.util.HashMap;
 import java.util.Map;
 import java.util.UUID;
 
@@ -104,12 +102,12 @@ public class MarkController extends Observable implements IMarkController {
 	}
 
 	@Override
-	public Color getMarkColor(UUID id) {
+	public String getMarkColor(UUID id) {
 		return mark.getColor();
 	}
 
 	@Override
-	public void setMarkColor(UUID id, Color color) {
+	public void setMarkColor(UUID id, String color) {
 		mark.setColor(color);
 		notifyObservers();
 	}

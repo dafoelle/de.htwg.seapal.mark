@@ -9,7 +9,7 @@ public interface IMarkDatabase {
 
 	UUID newMark();
 
-	void saveMark(IMark boat);
+	void saveMark(IMark mark);
 
 	void deleteMark(UUID id);
 

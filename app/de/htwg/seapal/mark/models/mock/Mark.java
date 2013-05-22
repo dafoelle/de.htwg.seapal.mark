@@ -1,6 +1,5 @@
 package de.htwg.seapal.mark.models.mock;
 
-import java.awt.Color;
 import java.util.UUID;
 
 import de.htwg.seapal.mark.models.IMark;
@@ -68,12 +67,12 @@ public class Mark implements IMark{
 	}
 
 	@Override
-	public Color getColor() {
-		return Color.BLACK;
+	public String getColor() {
+		return "black";
 	}
 
 	@Override
-	public void setColor(Color color) {
+	public void setColor(String color) {
 	}
 
 	@Override

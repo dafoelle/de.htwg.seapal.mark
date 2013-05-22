@@ -1,7 +1,5 @@
 package de.htwg.seapal.mark.views.tui;
 
-import java.awt.Color;
-import java.lang.reflect.Field;
 import java.util.Map.Entry;
 import java.util.Scanner;
 import java.util.UUID;
@@ -29,32 +27,37 @@ public class MarkTUI implements Plugin, IObserver{
 	}
 
 	public boolean processInputLine(String line) {
-		
-		boolean continu = true;
-		
-		if(line.equalsIgnoreCase("show")) {
-			printMarks();
-		}		
-		if(line.equalsIgnoreCase("select")) {
-			Scanner scanner = new Scanner(System.in);
-			selectedMark = scanner.next();
-		}			
-		if(line.equalsIgnoreCase("new")) {
-			UUID mark = controller.newMark();
-			selectedMark = mark.toString();
-		}		
-		if (line.equalsIgnoreCase("quit")) {
-			continu = false;
-			controller.closeDB();
+		try {
+			boolean continu = true;
+			
+			if(line.equalsIgnoreCase("show")) {
+				printMarks();
+			}		
+			if(line.equalsIgnoreCase("select")) {
+				Scanner scanner = new Scanner(System.in);
+				selectedMark = scanner.next();
+			}			
+			if(line.equalsIgnoreCase("new")) {
+				UUID mark = controller.newMark();
+				selectedMark = mark.toString();
+			}		
+			if (line.equalsIgnoreCase("quit")) {
+				continu = false;
+				controller.closeDB();
+			}
+			
+			if(selectedMark != null)
+				handleMarkSpecificEvents(line);
+			
+			return continu;
 		}
-		
-		if(selectedMark != null)
-			handleMarkSpecificEvents(line);
-		
-		return continu;
+		catch(Exception e) {
+			return false;
+		}
 	}
 	
-	private void handleMarkSpecificEvents(String line) {
+	private void handleMarkSpecificEvents(String line) throws Exception {
+	
 		if(line.equalsIgnoreCase("release")) {
 			selectedMark = null;
 		}		
@@ -87,15 +90,8 @@ public class MarkTUI implements Plugin, IObserver{
 			controller.setMarkIsNight(UUID.fromString(selectedMark), scanner.nextBoolean());
 		}
 		if (line.equalsIgnoreCase("c")) {
-			Scanner scanner = new Scanner(System.in);
-			Color color;
-			try {
-			    Field field = Class.forName("java.awt.Color").getField(scanner.next());
-			    color = (Color)field.get(null);
-			} catch (Exception e) {
-			    color = Color.white;
-			}
-			controller.setMarkColor(UUID.fromString(selectedMark), color);
+			Scanner scanner = new Scanner(System.in);			
+			controller.setMarkColor(UUID.fromString(selectedMark), scanner.next());
 		}
 		if (line.equalsIgnoreCase("f")) {
 			Scanner scanner = new Scanner(System.in);
@@ -104,10 +100,14 @@ public class MarkTUI implements Plugin, IObserver{
 	}
 
 	private void printMarks() {
+		try {
 		System.out.println("Marks:");
 		for(Entry<String, String> x : controller.getMarks().entrySet()) {
 			System.out.println(x.getKey() + ": " + x.getValue());
 		}		
+		} catch(Exception e) {
+			
+		}
 	}
 
 	public void printTUI() {
@@ -123,8 +123,11 @@ public class MarkTUI implements Plugin, IObserver{
 			System.out.println("      f - new Function");
 			System.out.println("      delete - remove selected Mark");
 			System.out.println("      release - release selected Mark");
-			
-			System.out.println(controller.getString(UUID.fromString(selectedMark)));
+			try {
+				System.out.println(controller.getString(UUID.fromString(selectedMark)));
+			} catch(Exception e){
+				System.out.println("Can't print mark");
+			}
 		}
 		else {
 			System.out.println("Options: show - show all Marks");

@@ -1,28 +1,29 @@
 package de.htwg.seapal.mark.controllers.impl;
 
-import java.awt.Color;
+import java.rmi.RemoteException;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 import java.util.UUID;
 
 import com.google.inject.Inject;
+
+import de.htwg.seapal.common.observer.Observable;
 import de.htwg.seapal.mark.controllers.IMarkController;
 import de.htwg.seapal.mark.database.IMarkDatabase;
 import de.htwg.seapal.mark.models.IMark;
-import de.htwg.seapal.common.observer.Observable;
 
 public class MarkController extends Observable implements IMarkController {
 
 	protected IMarkDatabase db;
 	
 	@Inject 
-	public MarkController(IMarkDatabase db) {
+	public MarkController(IMarkDatabase db) throws RemoteException {
 		this.db = db;
 	}
 
 	@Override
-	public Map<String, String> getMarks() {
+	public Map<String, String> getMarks() throws RemoteException {
 		List<IMark> query = db.getMarks();
 		Map<String, String> map = new HashMap<String, String>();
 		for (IMark mark : query) {
@@ -32,23 +33,23 @@ public class MarkController extends Observable implements IMarkController {
 	}
 
 	@Override
-	public UUID newMark() {
+	public UUID newMark() throws RemoteException {
 		return db.newMark();
 	}
 
 	@Override
-	public void deleteMark(UUID id) {
+	public void deleteMark(UUID id) throws RemoteException {
 		db.deleteMark(id);
 		notifyObservers();
 	}
 
 	@Override
-	public void closeDB() {
+	public void closeDB() throws RemoteException {
 		db.closeDB();
 	}
 
 	@Override
-	public void setMarkName(UUID id, String string) {
+	public void setMarkName(UUID id, String string) throws RemoteException {
 		IMark mark = db.getMark(id);
 		mark.setName(string);
 		db.saveMark(mark);
@@ -56,17 +57,17 @@ public class MarkController extends Observable implements IMarkController {
 	}
 
 	@Override
-	public String getMarkName(UUID id) {
+	public String getMarkName(UUID id) throws RemoteException {
 		return db.getMark(id).getName();
 	}
 
 	@Override
-	public double getMarkLatitude(UUID id) {
+	public double getMarkLatitude(UUID id) throws RemoteException {
 		return db.getMark(id).getLatitude();
 	}
 
 	@Override
-	public void setMarkLatitude(UUID id, double latitute) {
+	public void setMarkLatitude(UUID id, double latitute) throws RemoteException {
 		IMark mark = db.getMark(id);
 		mark.setLatitude(latitute);
 		db.saveMark(mark);
@@ -74,12 +75,12 @@ public class MarkController extends Observable implements IMarkController {
 	}
 
 	@Override
-	public double getMarkLongitude(UUID id) {
+	public double getMarkLongitude(UUID id) throws RemoteException {
 		return db.getMark(id).getLongitude();
 	}
 
 	@Override
-	public void setMarkLongitude(UUID id, double longitude) {
+	public void setMarkLongitude(UUID id, double longitude) throws RemoteException {
 		IMark mark = db.getMark(id);
 		mark.setLongitude(longitude);
 		db.saveMark(mark);
@@ -87,12 +88,12 @@ public class MarkController extends Observable implements IMarkController {
 	}
 
 	@Override
-	public String getMarkType(UUID id) {
+	public String getMarkType(UUID id) throws RemoteException {
 		return db.getMark(id).getMarkType();
 	}
 
 	@Override
-	public void setMarkType(UUID id, String type) {
+	public void setMarkType(UUID id, String type) throws RemoteException {
 		IMark mark = db.getMark(id);
 		mark.setMarkType(type);
 		db.saveMark(mark);
@@ -100,12 +101,12 @@ public class MarkController extends Observable implements IMarkController {
 	}
 
 	@Override
-	public Boolean getMarkIsDay(UUID id) {
+	public Boolean getMarkIsDay(UUID id) throws RemoteException {
 		return db.getMark(id).getIsDay();
 	}
 
 	@Override
-	public void setMarkIsDay(UUID id, Boolean val) {
+	public void setMarkIsDay(UUID id, Boolean val) throws RemoteException {
 		IMark mark = db.getMark(id);
 		mark.setIsDay(val);
 		db.saveMark(mark);
@@ -113,12 +114,12 @@ public class MarkController extends Observable implements IMarkController {
 	}
 
 	@Override
-	public Boolean getMarkIsNight(UUID id) {
+	public Boolean getMarkIsNight(UUID id) throws RemoteException {
 		return db.getMark(id).getIsNight();
 	}
 
 	@Override
-	public void setMarkIsNight(UUID id, Boolean val) {
+	public void setMarkIsNight(UUID id, Boolean val) throws RemoteException {
 		IMark mark = db.getMark(id);
 		mark.setIsNight(val);
 		db.saveMark(mark);
@@ -126,12 +127,12 @@ public class MarkController extends Observable implements IMarkController {
 	}
 
 	@Override
-	public Color getMarkColor(UUID id) {
+	public String getMarkColor(UUID id) throws RemoteException {
 		return db.getMark(id).getColor();
 	}
 
 	@Override
-	public void setMarkColor(UUID id, Color color) {
+	public void setMarkColor(UUID id, String color) throws RemoteException {
 		IMark mark = db.getMark(id);
 		mark.setColor(color);
 		db.saveMark(mark);
@@ -139,12 +140,12 @@ public class MarkController extends Observable implements IMarkController {
 	}
 
 	@Override
-	public String getMarkFunction(UUID id) {
+	public String getMarkFunction(UUID id) throws RemoteException {
 		return db.getMark(id).getFunction();
 	}
 
 	@Override
-	public void setMarkFunction(UUID id, String function) {
+	public void setMarkFunction(UUID id, String function) throws RemoteException {
 		IMark mark = db.getMark(id);
 		mark.setFunction(function);
 		db.saveMark(mark);
@@ -152,7 +153,7 @@ public class MarkController extends Observable implements IMarkController {
 	}
 
 	@Override
-	public String getString(UUID id) {
+	public String getString(UUID id) throws RemoteException {
 		IMark mark = db.getMark(id);
 		return  "Mark: " + mark.getName() + "\n" + 
 				"Latitude: " + mark.getLatitude() + "\n" +

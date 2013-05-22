@@ -2,7 +2,6 @@ package de.htwg.seapal.mark.models.mock;
 
 import static org.junit.Assert.*;
 
-import java.awt.Color;
 import java.util.UUID;
 
 import org.junit.Before;
@@ -39,13 +38,13 @@ public class MarkTest {
 
 	@Test
 	public void testGetColor() {
-		assertEquals(Color.BLACK, mark.getColor());
+		assertEquals("black", mark.getColor());
 	}
 	
 	@Test
 	public void testSetColor() {
-		mark.setColor(Color.RED);
-		assertEquals(Color.BLACK, mark.getColor());
+		mark.setColor("red");
+		assertEquals("black", mark.getColor());
 	}
 	
 	@Test

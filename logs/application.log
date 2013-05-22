@@ -281,3 +281,759 @@ Bean property de.htwg.seapal.mark.models.impl.Mark.id has  missing writeMethod .
 2013-05-08 12:37:48,668 - [ERROR] - from com.avaje.ebeaninternal.server.deploy.meta.DeployBeanDescriptor in main 
 Bean property de.htwg.seapal.mark.models.impl.Mark.id has  missing writeMethod . Should it be transient?
 
+2013-05-15 10:47:43,647 - [INFO] - from play in main 
+database [default] connected at jdbc:h2:mem:play
+
+2013-05-15 10:47:47,424 - [ERROR] - from com.avaje.ebeaninternal.server.deploy.meta.DeployBeanDescriptor in main 
+Bean property de.htwg.seapal.mark.models.impl.Mark.id has  missing writeMethod . Should it be transient?
+
+2013-05-15 10:47:48,939 - [INFO] - from play in main 
+Application started (Dev)
+
+2013-05-15 10:49:40,037 - [INFO] - from play in main 
+database [default] connected at jdbc:h2:mem:play
+
+2013-05-15 10:49:41,693 - [ERROR] - from com.avaje.ebeaninternal.server.deploy.meta.DeployBeanDescriptor in main 
+Bean property de.htwg.seapal.mark.models.impl.Mark.id has  missing writeMethod . Should it be transient?
+
+2013-05-15 10:49:42,693 - [INFO] - from play in main 
+Application started (Dev)
+
+2013-05-15 10:50:05,034 - [INFO] - from play in main 
+database [default] connected at jdbc:h2:mem:play
+
+2013-05-15 10:50:07,127 - [ERROR] - from com.avaje.ebeaninternal.server.deploy.meta.DeployBeanDescriptor in main 
+Bean property de.htwg.seapal.mark.models.impl.Mark.id has  missing writeMethod . Should it be transient?
+
+2013-05-15 10:50:08,517 - [INFO] - from play in main 
+Application started (Dev)
+
+2013-05-15 10:50:51,466 - [INFO] - from play in main 
+database [default] connected at jdbc:h2:mem:play
+
+2013-05-15 10:50:53,512 - [ERROR] - from com.avaje.ebeaninternal.server.deploy.meta.DeployBeanDescriptor in main 
+Bean property de.htwg.seapal.mark.models.impl.Mark.id has  missing writeMethod . Should it be transient?
+
+2013-05-15 10:50:54,934 - [INFO] - from play in main 
+Application started (Dev)
+
+2013-05-15 10:51:21,645 - [INFO] - from play in main 
+database [default] connected at jdbc:h2:mem:play
+
+2013-05-15 10:51:23,488 - [ERROR] - from com.avaje.ebeaninternal.server.deploy.meta.DeployBeanDescriptor in main 
+Bean property de.htwg.seapal.mark.models.impl.Mark.id has  missing writeMethod . Should it be transient?
+
+2013-05-15 10:51:24,800 - [INFO] - from play in main 
+Application started (Dev)
+
+2013-05-15 10:54:21,572 - [INFO] - from play in main 
+database [default] connected at jdbc:h2:mem:play
+
+2013-05-15 10:54:23,290 - [ERROR] - from com.avaje.ebeaninternal.server.deploy.meta.DeployBeanDescriptor in main 
+Bean property de.htwg.seapal.mark.models.impl.Mark.id has  missing writeMethod . Should it be transient?
+
+2013-05-15 10:54:24,353 - [INFO] - from play in main 
+Application started (Dev)
+
+2013-05-15 10:55:23,091 - [INFO] - from play in main 
+database [default] connected at jdbc:h2:mem:play
+
+2013-05-15 10:55:24,731 - [ERROR] - from com.avaje.ebeaninternal.server.deploy.meta.DeployBeanDescriptor in main 
+Bean property de.htwg.seapal.mark.models.impl.Mark.id has  missing writeMethod . Should it be transient?
+
+2013-05-15 10:55:25,794 - [INFO] - from play in main 
+Application started (Dev)
+
+2013-05-15 10:57:21,271 - [INFO] - from play in main 
+database [default] connected at jdbc:h2:mem:play
+
+2013-05-15 10:57:22,926 - [ERROR] - from com.avaje.ebeaninternal.server.deploy.meta.DeployBeanDescriptor in main 
+Bean property de.htwg.seapal.mark.models.impl.Mark.id has  missing writeMethod . Should it be transient?
+
+2013-05-15 10:57:23,973 - [INFO] - from play in main 
+Application started (Dev)
+
+2013-05-15 10:58:28,172 - [INFO] - from play in main 
+database [default] connected at jdbc:h2:mem:play
+
+2013-05-15 10:58:29,921 - [ERROR] - from com.avaje.ebeaninternal.server.deploy.meta.DeployBeanDescriptor in main 
+Bean property de.htwg.seapal.mark.models.impl.Mark.id has  missing writeMethod . Should it be transient?
+
+2013-05-15 10:58:30,984 - [INFO] - from play in main 
+Application started (Dev)
+
+2013-05-15 10:59:47,273 - [INFO] - from play in main 
+database [default] connected at jdbc:h2:mem:play
+
+2013-05-15 10:59:48,975 - [ERROR] - from com.avaje.ebeaninternal.server.deploy.meta.DeployBeanDescriptor in main 
+Bean property de.htwg.seapal.mark.models.impl.Mark.id has  missing writeMethod . Should it be transient?
+
+2013-05-15 10:59:50,054 - [INFO] - from play in main 
+Application started (Dev)
+
+2013-05-15 11:00:23,600 - [INFO] - from play in main 
+database [default] connected at jdbc:h2:mem:play
+
+2013-05-15 11:00:25,303 - [ERROR] - from com.avaje.ebeaninternal.server.deploy.meta.DeployBeanDescriptor in main 
+Bean property de.htwg.seapal.mark.models.impl.Mark.id has  missing writeMethod . Should it be transient?
+
+2013-05-15 11:00:26,350 - [INFO] - from play in main 
+Application started (Dev)
+
+2013-05-15 11:02:40,486 - [INFO] - from play in main 
+database [default] connected at jdbc:h2:mem:play
+
+2013-05-15 11:02:42,173 - [ERROR] - from com.avaje.ebeaninternal.server.deploy.meta.DeployBeanDescriptor in main 
+Bean property de.htwg.seapal.mark.models.impl.Mark.id has  missing writeMethod . Should it be transient?
+
+2013-05-15 11:02:43,220 - [INFO] - from play in main 
+Application started (Dev)
+
+2013-05-15 11:03:29,962 - [INFO] - from play in main 
+database [default] connected at jdbc:h2:mem:play
+
+2013-05-15 11:03:31,665 - [ERROR] - from com.avaje.ebeaninternal.server.deploy.meta.DeployBeanDescriptor in main 
+Bean property de.htwg.seapal.mark.models.impl.Mark.id has  missing writeMethod . Should it be transient?
+
+2013-05-15 11:03:32,743 - [INFO] - from play in main 
+Application started (Dev)
+
+2013-05-15 11:04:51,200 - [INFO] - from play in main 
+database [default] connected at jdbc:h2:mem:play
+
+2013-05-15 11:04:52,903 - [ERROR] - from com.avaje.ebeaninternal.server.deploy.meta.DeployBeanDescriptor in main 
+Bean property de.htwg.seapal.mark.models.impl.Mark.id has  missing writeMethod . Should it be transient?
+
+2013-05-15 11:04:53,934 - [INFO] - from play in main 
+Application started (Dev)
+
+2013-05-15 11:06:35,794 - [INFO] - from play in main 
+database [default] connected at jdbc:h2:mem:play
+
+2013-05-15 11:06:37,434 - [ERROR] - from com.avaje.ebeaninternal.server.deploy.meta.DeployBeanDescriptor in main 
+Bean property de.htwg.seapal.mark.models.impl.Mark.id has  missing writeMethod . Should it be transient?
+
+2013-05-15 11:06:38,403 - [INFO] - from play in main 
+Application started (Dev)
+
+2013-05-15 11:07:20,449 - [INFO] - from play in main 
+database [default] connected at jdbc:h2:mem:play
+
+2013-05-15 11:07:22,230 - [ERROR] - from com.avaje.ebeaninternal.server.deploy.meta.DeployBeanDescriptor in main 
+Bean property de.htwg.seapal.mark.models.impl.Mark.id has  missing writeMethod . Should it be transient?
+
+2013-05-15 11:07:23,277 - [INFO] - from play in main 
+Application started (Dev)
+
+2013-05-15 11:08:15,323 - [INFO] - from play in main 
+database [default] connected at jdbc:h2:mem:play
+
+2013-05-15 11:08:17,104 - [ERROR] - from com.avaje.ebeaninternal.server.deploy.meta.DeployBeanDescriptor in main 
+Bean property de.htwg.seapal.mark.models.impl.Mark.id has  missing writeMethod . Should it be transient?
+
+2013-05-15 11:08:18,213 - [INFO] - from play in main 
+Application started (Dev)
+
+2013-05-15 11:13:59,225 - [INFO] - from play in main 
+database [default] connected at jdbc:h2:mem:play
+
+2013-05-15 11:14:00,959 - [ERROR] - from com.avaje.ebeaninternal.server.deploy.meta.DeployBeanDescriptor in main 
+Bean property de.htwg.seapal.mark.models.impl.Mark.id has  missing writeMethod . Should it be transient?
+
+2013-05-15 11:14:02,037 - [INFO] - from play in main 
+Application started (Dev)
+
+2013-05-15 11:17:17,503 - [INFO] - from play in main 
+database [default] connected at jdbc:h2:mem:play
+
+2013-05-15 11:17:19,221 - [ERROR] - from com.avaje.ebeaninternal.server.deploy.meta.DeployBeanDescriptor in main 
+Bean property de.htwg.seapal.mark.models.impl.Mark.id has  missing writeMethod . Should it be transient?
+
+2013-05-15 11:17:20,300 - [INFO] - from play in main 
+Application started (Dev)
+
+2013-05-15 11:18:47,417 - [INFO] - from play in main 
+database [default] connected at jdbc:h2:mem:play
+
+2013-05-15 11:18:49,165 - [ERROR] - from com.avaje.ebeaninternal.server.deploy.meta.DeployBeanDescriptor in main 
+Bean property de.htwg.seapal.mark.models.impl.Mark.id has  missing writeMethod . Should it be transient?
+
+2013-05-15 11:18:50,241 - [INFO] - from play in main 
+Application started (Dev)
+
+2013-05-15 11:22:54,094 - [INFO] - from play in main 
+database [default] connected at jdbc:h2:mem:play
+
+2013-05-15 11:22:55,815 - [ERROR] - from com.avaje.ebeaninternal.server.deploy.meta.DeployBeanDescriptor in main 
+Bean property de.htwg.seapal.mark.models.impl.Mark.id has  missing writeMethod . Should it be transient?
+
+2013-05-15 11:22:56,899 - [INFO] - from play in main 
+Application started (Dev)
+
+2013-05-15 14:31:09,989 - [INFO] - from play in main 
+database [default] connected at jdbc:h2:mem:play
+
+2013-05-15 14:31:11,972 - [ERROR] - from com.avaje.ebeaninternal.server.deploy.meta.DeployBeanDescriptor in main 
+Bean property de.htwg.seapal.mark.models.impl.Mark.id has  missing writeMethod . Should it be transient?
+
+2013-05-15 14:31:13,393 - [INFO] - from play in main 
+Application started (Dev)
+
+2013-05-15 14:42:51,720 - [INFO] - from play in main 
+database [default] connected at jdbc:h2:mem:play
+
+2013-05-15 14:42:54,233 - [ERROR] - from com.avaje.ebeaninternal.server.deploy.meta.DeployBeanDescriptor in main 
+Bean property de.htwg.seapal.mark.models.impl.Mark.id has  missing writeMethod . Should it be transient?
+
+2013-05-15 14:42:55,920 - [INFO] - from play in main 
+Application started (Dev)
+
+2013-05-15 14:44:02,207 - [INFO] - from play in main 
+database [default] connected at jdbc:h2:mem:play
+
+2013-05-15 14:44:03,831 - [ERROR] - from com.avaje.ebeaninternal.server.deploy.meta.DeployBeanDescriptor in main 
+Bean property de.htwg.seapal.mark.models.impl.Mark.id has  missing writeMethod . Should it be transient?
+
+2013-05-15 14:44:04,863 - [INFO] - from play in main 
+Application started (Dev)
+
+2013-05-15 14:44:47,832 - [INFO] - from play in main 
+database [default] connected at jdbc:h2:mem:play
+
+2013-05-15 14:44:49,347 - [ERROR] - from com.avaje.ebeaninternal.server.deploy.meta.DeployBeanDescriptor in main 
+Bean property de.htwg.seapal.mark.models.impl.Mark.id has  missing writeMethod . Should it be transient?
+
+2013-05-15 14:44:50,394 - [INFO] - from play in main 
+Application started (Dev)
+
+2013-05-15 14:46:01,553 - [INFO] - from play in main 
+database [default] connected at jdbc:h2:mem:play
+
+2013-05-15 14:46:03,161 - [ERROR] - from com.avaje.ebeaninternal.server.deploy.meta.DeployBeanDescriptor in main 
+Bean property de.htwg.seapal.mark.models.impl.Mark.id has  missing writeMethod . Should it be transient?
+
+2013-05-15 14:46:04,177 - [INFO] - from play in main 
+Application started (Dev)
+
+2013-05-15 14:46:36,585 - [INFO] - from play in main 
+database [default] connected at jdbc:h2:mem:play
+
+2013-05-15 14:46:38,007 - [ERROR] - from com.avaje.ebeaninternal.server.deploy.meta.DeployBeanDescriptor in main 
+Bean property de.htwg.seapal.mark.models.impl.Mark.id has  missing writeMethod . Should it be transient?
+
+2013-05-15 14:46:38,695 - [INFO] - from play in main 
+Application started (Dev)
+
+2013-05-15 14:54:35,696 - [INFO] - from play in main 
+database [default] connected at jdbc:h2:mem:play
+
+2013-05-15 14:54:38,022 - [ERROR] - from com.avaje.ebeaninternal.server.deploy.meta.DeployBeanDescriptor in main 
+Bean property de.htwg.seapal.mark.models.impl.Mark.id has  missing writeMethod . Should it be transient?
+
+2013-05-15 14:54:39,600 - [INFO] - from play in main 
+Application started (Dev)
+
+2013-05-15 14:55:12,676 - [INFO] - from play in main 
+database [default] connected at jdbc:h2:mem:play
+
+2013-05-15 14:55:14,316 - [ERROR] - from com.avaje.ebeaninternal.server.deploy.meta.DeployBeanDescriptor in main 
+Bean property de.htwg.seapal.mark.models.impl.Mark.id has  missing writeMethod . Should it be transient?
+
+2013-05-15 14:55:15,348 - [INFO] - from play in main 
+Application started (Dev)
+
+2013-05-15 15:03:45,663 - [INFO] - from play in main 
+database [default] connected at jdbc:h2:mem:play
+
+2013-05-15 15:03:47,256 - [ERROR] - from com.avaje.ebeaninternal.server.deploy.meta.DeployBeanDescriptor in main 
+Bean property de.htwg.seapal.mark.models.impl.Mark.id has  missing writeMethod . Should it be transient?
+
+2013-05-15 15:03:48,303 - [INFO] - from play in main 
+Application started (Dev)
+
+2013-05-15 15:04:44,989 - [INFO] - from play in main 
+database [default] connected at jdbc:h2:mem:play
+
+2013-05-15 15:04:46,675 - [ERROR] - from com.avaje.ebeaninternal.server.deploy.meta.DeployBeanDescriptor in main 
+Bean property de.htwg.seapal.mark.models.impl.Mark.id has  missing writeMethod . Should it be transient?
+
+2013-05-15 15:04:47,645 - [INFO] - from play in main 
+Application started (Dev)
+
+2013-05-15 15:21:45,464 - [INFO] - from play in main 
+database [default] connected at jdbc:h2:mem:play
+
+2013-05-15 15:21:47,281 - [ERROR] - from com.avaje.ebeaninternal.server.deploy.meta.DeployBeanDescriptor in main 
+Bean property de.htwg.seapal.mark.models.impl.Mark.id has  missing writeMethod . Should it be transient?
+
+2013-05-15 15:21:48,079 - [INFO] - from play in main 
+Application started (Dev)
+
+2013-05-22 18:13:28,680 - [INFO] - from play in main 
+database [default] connected at jdbc:h2:mem:play
+
+2013-05-22 18:13:31,168 - [ERROR] - from com.avaje.ebeaninternal.server.deploy.meta.DeployBeanDescriptor in main 
+Bean property de.htwg.seapal.mark.models.impl.Mark.id has  missing writeMethod . Should it be transient?
+
+2013-05-22 18:13:32,667 - [INFO] - from play in main 
+Application started (Dev)
+
+2013-05-22 18:25:30,692 - [INFO] - from play in main 
+database [default] connected at jdbc:h2:mem:play
+
+2013-05-22 18:25:32,394 - [ERROR] - from com.avaje.ebeaninternal.server.deploy.meta.DeployBeanDescriptor in main 
+Bean property de.htwg.seapal.mark.models.impl.Mark.id has  missing writeMethod . Should it be transient?
+
+2013-05-22 18:25:33,493 - [INFO] - from play in main 
+Application started (Dev)
+
+2013-05-22 18:28:23,015 - [INFO] - from play in main 
+database [default] connected at jdbc:h2:mem:play
+
+2013-05-22 18:28:24,796 - [ERROR] - from com.avaje.ebeaninternal.server.deploy.meta.DeployBeanDescriptor in main 
+Bean property de.htwg.seapal.mark.models.impl.Mark.id has  missing writeMethod . Should it be transient?
+
+2013-05-22 18:28:25,858 - [INFO] - from play in main 
+Application started (Dev)
+
+2013-05-22 18:29:57,041 - [INFO] - from play in main 
+database [default] connected at jdbc:h2:mem:play
+
+2013-05-22 18:29:58,769 - [ERROR] - from com.avaje.ebeaninternal.server.deploy.meta.DeployBeanDescriptor in main 
+Bean property de.htwg.seapal.mark.models.impl.Mark.id has  missing writeMethod . Should it be transient?
+
+2013-05-22 18:29:59,821 - [INFO] - from play in main 
+Application started (Dev)
+
+2013-05-22 18:30:55,242 - [INFO] - from play in main 
+database [default] connected at jdbc:h2:mem:play
+
+2013-05-22 18:30:57,443 - [ERROR] - from com.avaje.ebeaninternal.server.deploy.meta.DeployBeanDescriptor in main 
+Bean property de.htwg.seapal.mark.models.impl.Mark.id has  missing writeMethod . Should it be transient?
+
+2013-05-22 18:30:58,885 - [INFO] - from play in main 
+Application started (Dev)
+
+2013-05-22 18:32:39,042 - [INFO] - from play in main 
+database [default] connected at jdbc:h2:mem:play
+
+2013-05-22 18:32:41,269 - [ERROR] - from com.avaje.ebeaninternal.server.deploy.meta.DeployBeanDescriptor in main 
+Bean property de.htwg.seapal.mark.models.impl.Mark.id has  missing writeMethod . Should it be transient?
+
+2013-05-22 18:32:42,706 - [INFO] - from play in main 
+Application started (Dev)
+
+2013-05-22 18:34:32,158 - [INFO] - from play in main 
+database [default] connected at jdbc:h2:mem:play
+
+2013-05-22 18:34:33,819 - [ERROR] - from com.avaje.ebeaninternal.server.deploy.meta.DeployBeanDescriptor in main 
+Bean property de.htwg.seapal.mark.models.impl.Mark.id has  missing writeMethod . Should it be transient?
+
+2013-05-22 18:34:34,804 - [INFO] - from play in main 
+Application started (Dev)
+
+2013-05-22 18:34:57,432 - [INFO] - from play in main 
+database [default] connected at jdbc:h2:mem:play
+
+2013-05-22 18:34:59,509 - [ERROR] - from com.avaje.ebeaninternal.server.deploy.meta.DeployBeanDescriptor in main 
+Bean property de.htwg.seapal.mark.models.impl.Mark.id has  missing writeMethod . Should it be transient?
+
+2013-05-22 18:35:00,889 - [INFO] - from play in main 
+Application started (Dev)
+
+2013-05-22 18:37:16,568 - [INFO] - from play in main 
+database [default] connected at jdbc:h2:mem:play
+
+2013-05-22 18:37:18,629 - [ERROR] - from com.avaje.ebeaninternal.server.deploy.meta.DeployBeanDescriptor in main 
+Bean property de.htwg.seapal.mark.models.impl.Mark.id has  missing writeMethod . Should it be transient?
+
+2013-05-22 18:37:19,973 - [INFO] - from play in main 
+Application started (Dev)
+
+2013-05-22 18:38:16,375 - [INFO] - from play in main 
+database [default] connected at jdbc:h2:mem:play
+
+2013-05-22 18:38:18,530 - [ERROR] - from com.avaje.ebeaninternal.server.deploy.meta.DeployBeanDescriptor in main 
+Bean property de.htwg.seapal.mark.models.impl.Mark.id has  missing writeMethod . Should it be transient?
+
+2013-05-22 18:38:19,983 - [INFO] - from play in main 
+Application started (Dev)
+
+2013-05-22 18:39:10,643 - [INFO] - from play in main 
+database [default] connected at jdbc:h2:mem:play
+
+2013-05-22 18:39:12,766 - [ERROR] - from com.avaje.ebeaninternal.server.deploy.meta.DeployBeanDescriptor in main 
+Bean property de.htwg.seapal.mark.models.impl.Mark.id has  missing writeMethod . Should it be transient?
+
+2013-05-22 18:39:14,157 - [INFO] - from play in main 
+Application started (Dev)
+
+2013-05-22 18:39:48,690 - [INFO] - from play in main 
+database [default] connected at jdbc:h2:mem:play
+
+2013-05-22 18:39:50,834 - [ERROR] - from com.avaje.ebeaninternal.server.deploy.meta.DeployBeanDescriptor in main 
+Bean property de.htwg.seapal.mark.models.impl.Mark.id has  missing writeMethod . Should it be transient?
+
+2013-05-22 18:39:52,297 - [INFO] - from play in main 
+Application started (Dev)
+
+2013-05-22 18:41:30,608 - [INFO] - from play in main 
+database [default] connected at jdbc:h2:mem:play
+
+2013-05-22 18:41:32,809 - [ERROR] - from com.avaje.ebeaninternal.server.deploy.meta.DeployBeanDescriptor in main 
+Bean property de.htwg.seapal.mark.models.impl.Mark.id has  missing writeMethod . Should it be transient?
+
+2013-05-22 18:41:34,430 - [INFO] - from play in main 
+Application started (Dev)
+
+2013-05-22 18:42:58,257 - [INFO] - from play in main 
+database [default] connected at jdbc:h2:mem:play
+
+2013-05-22 18:43:00,153 - [ERROR] - from com.avaje.ebeaninternal.server.deploy.meta.DeployBeanDescriptor in main 
+Bean property de.htwg.seapal.mark.models.impl.Mark.id has  missing writeMethod . Should it be transient?
+
+2013-05-22 18:43:01,559 - [INFO] - from play in main 
+Application started (Dev)
+
+2013-05-22 18:44:19,739 - [INFO] - from play in main 
+database [default] connected at jdbc:h2:mem:play
+
+2013-05-22 18:44:21,800 - [ERROR] - from com.avaje.ebeaninternal.server.deploy.meta.DeployBeanDescriptor in main 
+Bean property de.htwg.seapal.mark.models.impl.Mark.id has  missing writeMethod . Should it be transient?
+
+2013-05-22 18:44:23,226 - [INFO] - from play in main 
+Application started (Dev)
+
+2013-05-22 18:48:49,427 - [INFO] - from play in main 
+database [default] connected at jdbc:h2:mem:play
+
+2013-05-22 18:48:51,634 - [ERROR] - from com.avaje.ebeaninternal.server.deploy.meta.DeployBeanDescriptor in main 
+Bean property de.htwg.seapal.mark.models.impl.Mark.id has  missing writeMethod . Should it be transient?
+
+2013-05-22 18:48:53,086 - [INFO] - from play in main 
+Application started (Dev)
+
+2013-05-22 18:51:33,181 - [INFO] - from play in main 
+database [default] connected at jdbc:h2:mem:play
+
+2013-05-22 18:51:35,023 - [ERROR] - from com.avaje.ebeaninternal.server.deploy.meta.DeployBeanDescriptor in main 
+Bean property de.htwg.seapal.mark.models.impl.Mark.id has  missing writeMethod . Should it be transient?
+
+2013-05-22 18:51:36,102 - [INFO] - from play in main 
+Application started (Dev)
+
+2013-05-22 18:52:40,817 - [INFO] - from play in main 
+database [default] connected at jdbc:h2:mem:play
+
+2013-05-22 18:52:42,851 - [ERROR] - from com.avaje.ebeaninternal.server.deploy.meta.DeployBeanDescriptor in main 
+Bean property de.htwg.seapal.mark.models.impl.Mark.id has  missing writeMethod . Should it be transient?
+
+2013-05-22 18:52:44,324 - [INFO] - from play in main 
+Application started (Dev)
+
+2013-05-22 18:53:42,172 - [INFO] - from play in main 
+database [default] connected at jdbc:h2:mem:play
+
+2013-05-22 18:53:44,342 - [ERROR] - from com.avaje.ebeaninternal.server.deploy.meta.DeployBeanDescriptor in main 
+Bean property de.htwg.seapal.mark.models.impl.Mark.id has  missing writeMethod . Should it be transient?
+
+2013-05-22 18:53:45,800 - [INFO] - from play in main 
+Application started (Dev)
+
+2013-05-22 18:54:44,637 - [INFO] - from play in main 
+database [default] connected at jdbc:h2:mem:play
+
+2013-05-22 18:54:46,739 - [ERROR] - from com.avaje.ebeaninternal.server.deploy.meta.DeployBeanDescriptor in main 
+Bean property de.htwg.seapal.mark.models.impl.Mark.id has  missing writeMethod . Should it be transient?
+
+2013-05-22 18:54:48,243 - [INFO] - from play in main 
+Application started (Dev)
+
+2013-05-22 18:57:17,202 - [INFO] - from play in main 
+database [default] connected at jdbc:h2:mem:play
+
+2013-05-22 18:57:19,237 - [ERROR] - from com.avaje.ebeaninternal.server.deploy.meta.DeployBeanDescriptor in main 
+Bean property de.htwg.seapal.mark.models.impl.Mark.id has  missing writeMethod . Should it be transient?
+
+2013-05-22 18:57:20,595 - [INFO] - from play in main 
+Application started (Dev)
+
+2013-05-22 19:01:53,776 - [INFO] - from play in main 
+database [default] connected at jdbc:h2:mem:play
+
+2013-05-22 19:01:54,319 - [INFO] - from play in main 
+database [default] connected at jdbc:h2:mem:play
+
+2013-05-22 19:01:57,359 - [INFO] - from play in main 
+Application started (Dev)
+
+2013-05-22 19:01:57,677 - [INFO] - from play in main 
+Application started (Dev)
+
+2013-05-22 19:12:09,381 - [INFO] - from play in main 
+database [default] connected at jdbc:h2:mem:play
+
+2013-05-22 19:12:12,162 - [INFO] - from play in main 
+Application started (Dev)
+
+2013-05-22 19:19:29,647 - [INFO] - from play in main 
+database [default] connected at jdbc:h2:mem:play
+
+2013-05-22 19:19:31,464 - [ERROR] - from com.avaje.ebeaninternal.server.deploy.meta.DeployBeanDescriptor in main 
+Bean property de.htwg.seapal.mark.models.impl.Mark.rev_val has  missing readMethod  missing writeMethod . Should it be transient?
+
+2013-05-22 19:19:32,672 - [INFO] - from play in main 
+Application started (Dev)
+
+2013-05-22 19:19:53,198 - [INFO] - from play in main 
+database [default] connected at jdbc:h2:mem:play
+
+2013-05-22 19:19:55,337 - [ERROR] - from com.avaje.ebeaninternal.server.deploy.meta.DeployBeanDescriptor in main 
+Bean property de.htwg.seapal.mark.models.impl.Mark.rev_val has  missing readMethod  missing writeMethod . Should it be transient?
+
+2013-05-22 19:19:56,732 - [INFO] - from play in main 
+Application started (Dev)
+
+2013-05-22 19:23:55,221 - [INFO] - from play in main 
+database [default] connected at jdbc:h2:mem:play
+
+2013-05-22 19:23:57,064 - [ERROR] - from com.avaje.ebeaninternal.server.deploy.meta.DeployBeanDescriptor in main 
+Bean property de.htwg.seapal.mark.models.impl.Mark.color has  missing readMethod  missing writeMethod . Should it be transient?
+
+2013-05-22 19:23:57,064 - [ERROR] - from com.avaje.ebeaninternal.server.deploy.meta.DeployBeanDescriptor in main 
+Bean property de.htwg.seapal.mark.models.impl.Mark.rev_val has  missing readMethod  missing writeMethod . Should it be transient?
+
+2013-05-22 19:23:58,248 - [INFO] - from play in main 
+Application started (Dev)
+
+2013-05-22 19:24:49,852 - [INFO] - from play in main 
+database [default] connected at jdbc:h2:mem:play
+
+2013-05-22 19:24:51,592 - [ERROR] - from com.avaje.ebeaninternal.server.deploy.meta.DeployBeanDescriptor in main 
+Bean property de.htwg.seapal.mark.models.impl.Mark.color has  missing readMethod  missing writeMethod . Should it be transient?
+
+2013-05-22 19:24:51,592 - [ERROR] - from com.avaje.ebeaninternal.server.deploy.meta.DeployBeanDescriptor in main 
+Bean property de.htwg.seapal.mark.models.impl.Mark.rev_val has  missing readMethod  missing writeMethod . Should it be transient?
+
+2013-05-22 19:24:52,675 - [INFO] - from play in main 
+Application started (Dev)
+
+2013-05-22 19:25:28,177 - [INFO] - from play in main 
+database [default] connected at jdbc:h2:mem:play
+
+2013-05-22 19:25:30,388 - [ERROR] - from com.avaje.ebeaninternal.server.deploy.meta.DeployBeanDescriptor in main 
+Bean property de.htwg.seapal.mark.models.impl.Mark.color has  missing readMethod  missing writeMethod . Should it be transient?
+
+2013-05-22 19:25:30,388 - [ERROR] - from com.avaje.ebeaninternal.server.deploy.meta.DeployBeanDescriptor in main 
+Bean property de.htwg.seapal.mark.models.impl.Mark.rev_val has  missing readMethod  missing writeMethod . Should it be transient?
+
+2013-05-22 19:25:31,869 - [INFO] - from play in main 
+Application started (Dev)
+
+2013-05-22 19:26:44,877 - [INFO] - from play in main 
+database [default] connected at jdbc:h2:mem:play
+
+2013-05-22 19:26:47,020 - [ERROR] - from com.avaje.ebeaninternal.server.deploy.meta.DeployBeanDescriptor in main 
+Bean property de.htwg.seapal.mark.models.impl.Mark.color has  missing readMethod  missing writeMethod . Should it be transient?
+
+2013-05-22 19:26:47,020 - [ERROR] - from com.avaje.ebeaninternal.server.deploy.meta.DeployBeanDescriptor in main 
+Bean property de.htwg.seapal.mark.models.impl.Mark.rev_val has  missing readMethod  missing writeMethod . Should it be transient?
+
+2013-05-22 19:26:48,446 - [INFO] - from play in main 
+Application started (Dev)
+
+2013-05-22 19:28:52,979 - [INFO] - from play in main 
+database [default] connected at jdbc:h2:mem:play
+
+2013-05-22 19:28:54,732 - [ERROR] - from com.avaje.ebeaninternal.server.deploy.meta.DeployBeanDescriptor in main 
+Bean property de.htwg.seapal.mark.models.impl.Mark.color has  missing readMethod  missing writeMethod . Should it be transient?
+
+2013-05-22 19:28:54,732 - [ERROR] - from com.avaje.ebeaninternal.server.deploy.meta.DeployBeanDescriptor in main 
+Bean property de.htwg.seapal.mark.models.impl.Mark.rev_val has  missing readMethod  missing writeMethod . Should it be transient?
+
+2013-05-22 19:28:55,795 - [INFO] - from play in main 
+Application started (Dev)
+
+2013-05-22 19:30:33,301 - [INFO] - from play in main 
+database [default] connected at jdbc:h2:mem:play
+
+2013-05-22 19:30:35,439 - [ERROR] - from com.avaje.ebeaninternal.server.deploy.meta.DeployBeanDescriptor in main 
+Bean property de.htwg.seapal.mark.models.impl.Mark.color has  missing readMethod  missing writeMethod . Should it be transient?
+
+2013-05-22 19:30:35,439 - [ERROR] - from com.avaje.ebeaninternal.server.deploy.meta.DeployBeanDescriptor in main 
+Bean property de.htwg.seapal.mark.models.impl.Mark.rev_val has  missing readMethod  missing writeMethod . Should it be transient?
+
+2013-05-22 19:30:36,875 - [INFO] - from play in main 
+Application started (Dev)
+
+2013-05-22 19:35:28,134 - [INFO] - from play in main 
+database [default] connected at jdbc:h2:mem:play
+
+2013-05-22 19:35:30,129 - [ERROR] - from com.avaje.ebeaninternal.server.deploy.meta.DeployBeanDescriptor in main 
+Bean property de.htwg.seapal.mark.models.impl.Mark.rev_val has  missing readMethod  missing writeMethod . Should it be transient?
+
+2013-05-22 19:35:31,280 - [INFO] - from play in main 
+Application started (Dev)
+
+2013-05-22 19:41:25,798 - [INFO] - from play in main 
+database [default] connected at jdbc:h2:mem:play
+
+2013-05-22 19:41:27,723 - [ERROR] - from com.avaje.ebeaninternal.server.deploy.meta.DeployBeanDescriptor in main 
+Bean property de.htwg.seapal.mark.models.impl.Mark.rev_val has  missing readMethod  missing writeMethod . Should it be transient?
+
+2013-05-22 19:41:28,852 - [INFO] - from play in main 
+Application started (Dev)
+
+2013-05-22 19:42:54,610 - [INFO] - from play in main 
+database [default] connected at jdbc:h2:mem:play
+
+2013-05-22 19:42:56,349 - [ERROR] - from com.avaje.ebeaninternal.server.deploy.meta.DeployBeanDescriptor in main 
+Bean property de.htwg.seapal.mark.models.impl.Mark.rev_val has  missing readMethod  missing writeMethod . Should it be transient?
+
+2013-05-22 19:42:57,453 - [INFO] - from play in main 
+Application started (Dev)
+
+2013-05-22 19:54:28,681 - [ERROR] - from com.avaje.ebeaninternal.server.deploy.meta.DeployBeanDescriptor in main 
+Bean property de.htwg.seapal.mark.models.impl.Mark.rev_val has  missing readMethod  missing writeMethod . Should it be transient?
+
+2013-05-22 19:54:30,743 - [ERROR] - from com.avaje.ebeaninternal.server.deploy.meta.DeployBeanDescriptor in main 
+Bean property de.htwg.seapal.mark.models.impl.Mark.rev_val has  missing readMethod  missing writeMethod . Should it be transient?
+
+2013-05-22 19:54:58,565 - [ERROR] - from com.avaje.ebeaninternal.server.deploy.meta.DeployBeanDescriptor in main 
+Bean property de.htwg.seapal.mark.models.impl.Mark.rev_val has  missing readMethod  missing writeMethod . Should it be transient?
+
+2013-05-22 19:55:00,358 - [ERROR] - from com.avaje.ebeaninternal.server.deploy.meta.DeployBeanDescriptor in main 
+Bean property de.htwg.seapal.mark.models.impl.Mark.rev_val has  missing readMethod  missing writeMethod . Should it be transient?
+
+2013-05-22 19:55:18,629 - [ERROR] - from com.avaje.ebeaninternal.server.deploy.meta.DeployBeanDescriptor in main 
+Bean property de.htwg.seapal.mark.models.impl.Mark.rev_val has  missing readMethod  missing writeMethod . Should it be transient?
+
+2013-05-22 19:55:20,256 - [ERROR] - from com.avaje.ebeaninternal.server.deploy.meta.DeployBeanDescriptor in main 
+Bean property de.htwg.seapal.mark.models.impl.Mark.rev_val has  missing readMethod  missing writeMethod . Should it be transient?
+
+2013-05-22 19:55:47,433 - [INFO] - from play in main 
+database [default] connected at jdbc:h2:mem:play
+
+2013-05-22 19:55:49,140 - [ERROR] - from com.avaje.ebeaninternal.server.deploy.meta.DeployBeanDescriptor in main 
+Bean property de.htwg.seapal.mark.models.impl.Mark.rev_val has  missing readMethod  missing writeMethod . Should it be transient?
+
+2013-05-22 19:55:50,187 - [INFO] - from play in main 
+Application started (Dev)
+
+2013-05-22 19:56:50,292 - [INFO] - from play in main 
+database [default] connected at jdbc:h2:mem:play
+
+2013-05-22 19:56:52,004 - [ERROR] - from com.avaje.ebeaninternal.server.deploy.meta.DeployBeanDescriptor in main 
+Bean property de.htwg.seapal.mark.models.impl.Mark.rev_val has  missing readMethod  missing writeMethod . Should it be transient?
+
+2013-05-22 19:56:53,061 - [INFO] - from play in main 
+Application started (Dev)
+
+2013-05-22 19:58:02,014 - [INFO] - from play in main 
+database [default] connected at jdbc:h2:mem:play
+
+2013-05-22 19:58:04,007 - [ERROR] - from com.avaje.ebeaninternal.server.deploy.meta.DeployBeanDescriptor in main 
+Bean property de.htwg.seapal.mark.models.impl.Mark.rev_val has  missing readMethod  missing writeMethod . Should it be transient?
+
+2013-05-22 19:58:05,095 - [INFO] - from play in main 
+Application started (Dev)
+
+2013-05-22 19:59:00,895 - [INFO] - from play in main 
+database [default] connected at jdbc:h2:mem:play
+
+2013-05-22 19:59:02,618 - [ERROR] - from com.avaje.ebeaninternal.server.deploy.meta.DeployBeanDescriptor in main 
+Bean property de.htwg.seapal.mark.models.impl.Mark.rev_val has  missing readMethod  missing writeMethod . Should it be transient?
+
+2013-05-22 19:59:03,680 - [INFO] - from play in main 
+Application started (Dev)
+
+2013-05-22 19:59:32,308 - [INFO] - from play in main 
+database [default] connected at jdbc:h2:mem:play
+
+2013-05-22 19:59:34,482 - [ERROR] - from com.avaje.ebeaninternal.server.deploy.meta.DeployBeanDescriptor in main 
+Bean property de.htwg.seapal.mark.models.impl.Mark.rev_val has  missing readMethod  missing writeMethod . Should it be transient?
+
+2013-05-22 19:59:35,908 - [INFO] - from play in main 
+Application started (Dev)
+
+2013-05-22 20:03:16,751 - [INFO] - from play in main 
+database [default] connected at jdbc:h2:mem:play
+
+2013-05-22 20:03:18,848 - [ERROR] - from com.avaje.ebeaninternal.server.deploy.meta.DeployBeanDescriptor in main 
+Bean property de.htwg.seapal.mark.models.impl.Mark.rev_val has  missing readMethod  missing writeMethod . Should it be transient?
+
+2013-05-22 20:03:20,347 - [INFO] - from play in main 
+Application started (Dev)
+
+2013-05-22 20:05:40,358 - [INFO] - from play in main 
+database [default] connected at jdbc:h2:mem:play
+
+2013-05-22 20:05:42,486 - [ERROR] - from com.avaje.ebeaninternal.server.deploy.meta.DeployBeanDescriptor in main 
+Bean property de.htwg.seapal.mark.models.impl.Mark.rev_val has  missing readMethod  missing writeMethod . Should it be transient?
+
+2013-05-22 20:05:43,933 - [INFO] - from play in main 
+Application started (Dev)
+
+2013-05-22 20:07:36,681 - [INFO] - from play in main 
+database [default] connected at jdbc:h2:mem:play
+
+2013-05-22 20:07:38,455 - [ERROR] - from com.avaje.ebeaninternal.server.deploy.meta.DeployBeanDescriptor in main 
+Bean property de.htwg.seapal.mark.models.impl.Mark.rev_val has  missing readMethod  missing writeMethod . Should it be transient?
+
+2013-05-22 20:07:39,559 - [INFO] - from play in main 
+Application started (Dev)
+
+2013-05-22 20:09:58,814 - [INFO] - from play in main 
+database [default] connected at jdbc:h2:mem:play
+
+2013-05-22 20:10:00,500 - [ERROR] - from com.avaje.ebeaninternal.server.deploy.meta.DeployBeanDescriptor in main 
+Bean property de.htwg.seapal.mark.models.impl.Mark.rev_val has  missing readMethod  missing writeMethod . Should it be transient?
+
+2013-05-22 20:10:01,573 - [INFO] - from play in main 
+Application started (Dev)
+
+2013-05-22 20:11:26,188 - [INFO] - from play in main 
+database [default] connected at jdbc:h2:mem:play
+
+2013-05-22 20:11:27,989 - [ERROR] - from com.avaje.ebeaninternal.server.deploy.meta.DeployBeanDescriptor in main 
+Bean property de.htwg.seapal.mark.models.impl.Mark.rev_val has  missing readMethod  missing writeMethod . Should it be transient?
+
+2013-05-22 20:11:28,760 - [INFO] - from play in main 
+database [default] connected at jdbc:h2:mem:play
+
+2013-05-22 20:11:29,256 - [INFO] - from play in main 
+Application started (Dev)
+
+2013-05-22 20:11:30,199 - [ERROR] - from com.avaje.ebeaninternal.server.deploy.meta.DeployBeanDescriptor in main 
+Bean property de.htwg.seapal.mark.models.impl.Mark.rev_val has  missing readMethod  missing writeMethod . Should it be transient?
+
+2013-05-22 20:11:31,053 - [INFO] - from play in main 
+Application started (Dev)
+
+2013-05-22 20:15:34,009 - [INFO] - from play in main 
+database [default] connected at jdbc:h2:mem:play
+
+2013-05-22 20:15:36,164 - [ERROR] - from com.avaje.ebeaninternal.server.deploy.meta.DeployBeanDescriptor in main 
+Bean property de.htwg.seapal.mark.models.impl.Mark.rev_val has  missing readMethod  missing writeMethod . Should it be transient?
+
+2013-05-22 20:15:37,663 - [INFO] - from play in main 
+Application started (Dev)
+
+2013-05-22 20:18:53,420 - [INFO] - from play in main 
+database [default] connected at jdbc:h2:mem:play
+
+2013-05-22 20:18:55,322 - [ERROR] - from com.avaje.ebeaninternal.server.deploy.meta.DeployBeanDescriptor in main 
+Bean property de.htwg.seapal.mark.models.impl.Mark.rev_val has  missing readMethod  missing writeMethod . Should it be transient?
+
+2013-05-22 20:18:56,360 - [INFO] - from play in main 
+Application started (Dev)
+
+2013-05-22 20:22:33,729 - [INFO] - from play in main 
+database [default] connected at jdbc:h2:mem:play
+
+2013-05-22 20:22:35,488 - [ERROR] - from com.avaje.ebeaninternal.server.deploy.meta.DeployBeanDescriptor in main 
+Bean property de.htwg.seapal.mark.models.impl.Mark.rev_val has  missing readMethod  missing writeMethod . Should it be transient?
+
+2013-05-22 20:22:36,535 - [INFO] - from play in main 
+Application started (Dev)
+

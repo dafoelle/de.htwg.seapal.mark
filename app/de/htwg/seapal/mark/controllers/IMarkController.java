@@ -1,43 +1,43 @@
 package de.htwg.seapal.mark.controllers;
 
-import java.awt.Color;
+import java.rmi.RemoteException;
 import java.util.Map;
 import java.util.UUID;
 
 import de.htwg.seapal.common.observer.IObservable;
 
-public interface IMarkController extends IObservable{
+public interface IMarkController extends IObservable, IHelperRemote {
 
-	Map<String,String> getMarks();
+	Map<String,String> getMarks() throws RemoteException;
 	
-	UUID newMark();
-	void deleteMark(UUID id);
-	void closeDB();
+	UUID newMark() throws RemoteException;
+	void deleteMark(UUID id) throws RemoteException;
+	void closeDB() throws RemoteException;
 	
-	void setMarkName(UUID id, String string);	
-	String getMarkName(UUID id);
+	void setMarkName(UUID id, String string)throws RemoteException;	
+	String getMarkName(UUID id) throws RemoteException;
 
-	double getMarkLatitude(UUID id);
-	void setMarkLatitude(UUID id, double latitute);
+	double getMarkLatitude(UUID id) throws RemoteException;
+	void setMarkLatitude(UUID id, double latitute) throws RemoteException;
 
-	double getMarkLongitude(UUID id);
-	void setMarkLongitude(UUID id, double longitude);
+	double getMarkLongitude(UUID id) throws RemoteException;
+	void setMarkLongitude(UUID id, double longitude) throws RemoteException;
 
-	String getMarkType(UUID id);
-	void setMarkType(UUID id, String type);
+	String getMarkType(UUID id) throws RemoteException;
+	void setMarkType(UUID id, String type) throws RemoteException;
 
-	Boolean getMarkIsDay(UUID id);
-	void setMarkIsDay(UUID id, Boolean val);
+	Boolean getMarkIsDay(UUID id) throws RemoteException;
+	void setMarkIsDay(UUID id, Boolean val) throws RemoteException;
 	
-	Boolean getMarkIsNight(UUID id);
-	void setMarkIsNight(UUID id, Boolean val);
+	Boolean getMarkIsNight(UUID id) throws RemoteException;
+	void setMarkIsNight(UUID id, Boolean val) throws RemoteException;
 	
-	Color getMarkColor(UUID id);
-	void setMarkColor(UUID id, Color color);
+	String getMarkColor(UUID id) throws RemoteException;
+	void setMarkColor(UUID id, String color) throws RemoteException;
 	
-	String getMarkFunction(UUID id);
-	void setMarkFunction(UUID id, String function);
+	String getMarkFunction(UUID id) throws RemoteException;
+	void setMarkFunction(UUID id, String function) throws RemoteException;
 	
-	String getString(UUID id);
+	String getString(UUID id) throws RemoteException;
 
 }
