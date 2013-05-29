@@ -7,3 +7,10 @@ GET     /                           de.htwg.seapal.mark.controllers.Application.
 
 # Map static resources from the /public folder to the /assets URL path
 GET     /assets/*file               controllers.Assets.at(path="/public", file)
+
+#Web services
+#GET     /marks/		           		de.htwg.seapal.mark.controllers.Application.getAllUser
+GET 	/marks/{id}			   		de.htwg.seapal.mark.controllers.Application.getMark
+#POST    /marks/                	de.htwg.seapal.mark.controllers.Application.createUser
+#PUT     /marks/{id}            	de.htwg.seapal.mark.controllers.Application.updateUser
+#DELETE  /marks/{id}            	de.htwg.seapal.mark.controllers.Application.deleteUser

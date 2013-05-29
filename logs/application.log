@@ -1037,3 +1037,57 @@ Bean property de.htwg.seapal.mark.models.impl.Mark.rev_val has  missing readMeth
 2013-05-22 20:22:36,535 - [INFO] - from play in main 
 Application started (Dev)
 
+2013-05-29 11:37:38,976 - [INFO] - from play in main 
+database [default] connected at jdbc:h2:mem:play
+
+2013-05-29 11:37:43,440 - [ERROR] - from com.avaje.ebeaninternal.server.deploy.meta.DeployBeanDescriptor in main 
+Bean property de.htwg.seapal.mark.models.impl.Mark.rev_val has  missing readMethod  missing writeMethod . Should it be transient?
+
+2013-05-29 11:37:44,939 - [INFO] - from play in main 
+Application started (Dev)
+
+2013-05-29 11:41:15,601 - [INFO] - from play in main 
+database [default] connected at jdbc:h2:mem:play
+
+2013-05-29 11:41:17,833 - [ERROR] - from com.avaje.ebeaninternal.server.deploy.meta.DeployBeanDescriptor in main 
+Bean property de.htwg.seapal.mark.models.impl.Mark.rev_val has  missing readMethod  missing writeMethod . Should it be transient?
+
+2013-05-29 11:41:19,271 - [INFO] - from play in main 
+Application started (Dev)
+
+2013-05-29 11:45:53,961 - [INFO] - from play in main 
+database [default] connected at jdbc:h2:mem:play
+
+2013-05-29 11:45:55,726 - [ERROR] - from com.avaje.ebeaninternal.server.deploy.meta.DeployBeanDescriptor in main 
+Bean property de.htwg.seapal.mark.models.impl.Mark.rev_val has  missing readMethod  missing writeMethod . Should it be transient?
+
+2013-05-29 11:45:56,804 - [INFO] - from play in main 
+Application started (Dev)
+
+2013-05-29 11:51:06,980 - [INFO] - from play in main 
+database [default] connected at jdbc:h2:mem:play
+
+2013-05-29 11:51:09,135 - [ERROR] - from com.avaje.ebeaninternal.server.deploy.meta.DeployBeanDescriptor in main 
+Bean property de.htwg.seapal.mark.models.impl.Mark.rev_val has  missing readMethod  missing writeMethod . Should it be transient?
+
+2013-05-29 11:51:10,561 - [INFO] - from play in main 
+Application started (Dev)
+
+2013-05-29 11:53:59,444 - [INFO] - from play in main 
+database [default] connected at jdbc:h2:mem:play
+
+2013-05-29 11:54:01,162 - [ERROR] - from com.avaje.ebeaninternal.server.deploy.meta.DeployBeanDescriptor in main 
+Bean property de.htwg.seapal.mark.models.impl.Mark.rev_val has  missing readMethod  missing writeMethod . Should it be transient?
+
+2013-05-29 11:54:02,209 - [INFO] - from play in main 
+Application started (Dev)
+
+2013-05-29 11:56:22,116 - [INFO] - from play in main 
+database [default] connected at jdbc:h2:mem:play
+
+2013-05-29 11:56:24,240 - [ERROR] - from com.avaje.ebeaninternal.server.deploy.meta.DeployBeanDescriptor in main 
+Bean property de.htwg.seapal.mark.models.impl.Mark.rev_val has  missing readMethod  missing writeMethod . Should it be transient?
+
+2013-05-29 11:56:25,693 - [INFO] - from play in main 
+Application started (Dev)
+

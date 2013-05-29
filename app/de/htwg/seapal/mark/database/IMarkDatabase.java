@@ -4,6 +4,7 @@ import java.util.List;
 import java.util.UUID;
 
 import de.htwg.seapal.mark.models.IMark;
+import de.htwg.seapal.mark.models.impl.Mark;
 
 public interface IMarkDatabase {
 

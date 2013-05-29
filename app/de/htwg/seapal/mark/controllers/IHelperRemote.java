@@ -1,7 +1,10 @@
 package de.htwg.seapal.mark.controllers;
 
 import java.rmi.Remote;
+import java.util.UUID;
 
-public interface IHelperRemote extends Remote{ 
+import de.htwg.seapal.mark.models.IMark;
+
+public interface IHelperRemote extends Remote{
 
 }

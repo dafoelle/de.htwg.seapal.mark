@@ -5,6 +5,7 @@ import java.util.Map;
 import java.util.UUID;
 
 import de.htwg.seapal.common.observer.IObservable;
+import de.htwg.seapal.mark.models.IMark;
 
 public interface IMarkController extends IObservable, IHelperRemote {
 
@@ -39,5 +40,7 @@ public interface IMarkController extends IObservable, IHelperRemote {
 	void setMarkFunction(UUID id, String function) throws RemoteException;
 	
 	String getString(UUID id) throws RemoteException;
+
+	IMark getMark(UUID id);
 
 }

@@ -34,7 +34,7 @@ public class MarkCouchDatabase implements IMarkDatabase {
 	
 	@Override
 	public UUID newMark() {
-		IMark mark = new Mark();
+		Mark mark = new Mark();
 		try {
 			db.create(mark.getId().toString(),mark);
 		} catch (Exception e) {
@@ -46,8 +46,9 @@ public class MarkCouchDatabase implements IMarkDatabase {
 	@Override
 	public void saveMark(IMark mark) {
 		try {
-			db.update(mark);
+			db.update((Mark)mark);
 		} catch (Exception e) {
+			//TODO: Always error thrown here.
 			return;
 		}
 	}
@@ -57,6 +58,7 @@ public class MarkCouchDatabase implements IMarkDatabase {
 		try {
 			db.delete(getMark(id));
 		} catch (Exception e) {
+			//TODO: Always error thrown here.
 			return;
 		}
 	}

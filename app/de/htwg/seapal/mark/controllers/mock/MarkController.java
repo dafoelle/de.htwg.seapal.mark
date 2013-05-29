@@ -134,6 +134,11 @@ public class MarkController extends Observable implements IMarkController {
 				"Color: "+ mark.getColor().toString() + "\n" +
 				"Function: "+ mark.getFunction();	
 	}
+
+	@Override
+	public IMark getMark(UUID id) {
+		return this.mark;
+	}
 	
 
 }

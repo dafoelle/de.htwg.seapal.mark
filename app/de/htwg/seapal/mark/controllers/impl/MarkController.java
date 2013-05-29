@@ -112,7 +112,12 @@ public class MarkController extends Observable implements IMarkController {
 		db.saveMark(mark);
 		notifyObservers();
 	}
-
+	
+	@Override
+	public IMark getMark(UUID id) {
+		return db.getMark(id);
+	}
+	
 	@Override
 	public Boolean getMarkIsNight(UUID id) throws RemoteException {
 		return db.getMark(id).getIsNight();
