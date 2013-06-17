@@ -367,3 +367,84 @@ Bean property de.htwg.seapal.mark.models.impl.Mark.rev has  missing readMethod  
 2013-06-17 17:58:04,046 - [ERROR] - from com.avaje.ebeaninternal.server.deploy.meta.DeployBeanDescriptor in main 
 Bean property de.htwg.seapal.mark.models.impl.Mark.rev has  missing readMethod  missing writeMethod . Should it be transient?
 
+2013-06-17 18:06:51,215 - [INFO] - from play in main 
+database [default] connected at jdbc:h2:mem:play
+
+2013-06-17 18:06:53,044 - [ERROR] - from com.avaje.ebeaninternal.server.deploy.meta.DeployBeanDescriptor in main 
+Bean property de.htwg.seapal.mark.models.impl.Mark.rev has  missing readMethod  missing writeMethod . Should it be transient?
+
+2013-06-17 18:06:54,058 - [INFO] - from play in main 
+Application started (Dev)
+
+2013-06-17 18:11:12,301 - [INFO] - from play in main 
+database [default] connected at jdbc:h2:mem:play
+
+2013-06-17 18:11:14,413 - [ERROR] - from com.avaje.ebeaninternal.server.deploy.meta.DeployBeanDescriptor in main 
+Bean property de.htwg.seapal.mark.models.impl.Mark.rev has  missing readMethod  missing writeMethod . Should it be transient?
+
+2013-06-17 18:11:15,490 - [INFO] - from play in main 
+Application started (Dev)
+
+2013-06-17 18:14:52,434 - [INFO] - from play in main 
+database [default] connected at jdbc:h2:mem:play
+
+2013-06-17 18:14:54,318 - [ERROR] - from com.avaje.ebeaninternal.server.deploy.meta.DeployBeanDescriptor in main 
+Bean property de.htwg.seapal.mark.models.impl.Mark.rev has  missing readMethod  missing writeMethod . Should it be transient?
+
+2013-06-17 18:14:55,402 - [INFO] - from play in main 
+Application started (Dev)
+
+2013-06-17 18:18:07,735 - [INFO] - from play in main 
+database [default] connected at jdbc:h2:mem:play
+
+2013-06-17 18:18:09,564 - [ERROR] - from com.avaje.ebeaninternal.server.deploy.meta.DeployBeanDescriptor in main 
+Bean property de.htwg.seapal.mark.models.impl.Mark.rev has  missing readMethod  missing writeMethod . Should it be transient?
+
+2013-06-17 18:18:10,657 - [INFO] - from play in main 
+Application started (Dev)
+
+2013-06-17 18:22:08,612 - [INFO] - from play in main 
+database [default] connected at jdbc:h2:mem:play
+
+2013-06-17 18:22:10,474 - [ERROR] - from com.avaje.ebeaninternal.server.deploy.meta.DeployBeanDescriptor in main 
+Bean property de.htwg.seapal.mark.models.impl.Mark.rev has  missing readMethod  missing writeMethod . Should it be transient?
+
+2013-06-17 18:22:11,515 - [INFO] - from play in main 
+Application started (Dev)
+
+2013-06-17 18:23:40,211 - [INFO] - from play in main 
+database [default] connected at jdbc:h2:mem:play
+
+2013-06-17 18:23:42,095 - [ERROR] - from com.avaje.ebeaninternal.server.deploy.meta.DeployBeanDescriptor in main 
+Bean property de.htwg.seapal.mark.models.impl.Mark.rev has  missing readMethod  missing writeMethod . Should it be transient?
+
+2013-06-17 18:23:43,118 - [INFO] - from play in main 
+Application started (Dev)
+
+2013-06-17 18:25:11,916 - [INFO] - from play in main 
+database [default] connected at jdbc:h2:mem:play
+
+2013-06-17 18:25:13,772 - [ERROR] - from com.avaje.ebeaninternal.server.deploy.meta.DeployBeanDescriptor in main 
+Bean property de.htwg.seapal.mark.models.impl.Mark.rev has  missing readMethod  missing writeMethod . Should it be transient?
+
+2013-06-17 18:25:14,784 - [INFO] - from play in main 
+Application started (Dev)
+
+2013-06-17 18:27:25,934 - [INFO] - from play in main 
+database [default] connected at jdbc:h2:mem:play
+
+2013-06-17 18:27:27,829 - [ERROR] - from com.avaje.ebeaninternal.server.deploy.meta.DeployBeanDescriptor in main 
+Bean property de.htwg.seapal.mark.models.impl.Mark.rev has  missing readMethod  missing writeMethod . Should it be transient?
+
+2013-06-17 18:27:28,905 - [INFO] - from play in main 
+Application started (Dev)
+
+2013-06-17 18:27:57,425 - [INFO] - from play in main 
+database [default] connected at jdbc:h2:mem:play
+
+2013-06-17 18:27:59,270 - [ERROR] - from com.avaje.ebeaninternal.server.deploy.meta.DeployBeanDescriptor in main 
+Bean property de.htwg.seapal.mark.models.impl.Mark.rev has  missing readMethod  missing writeMethod . Should it be transient?
+
+2013-06-17 18:28:00,402 - [INFO] - from play in main 
+Application started (Dev)
+

@@ -39,7 +39,7 @@ public class Mark {
 			Injector injector = Guice.createInjector(new MarkImplModule());
 			
 			IMarkController controller = injector.getInstance(IMarkController.class);
-		/*	
+			
 			//RMI-Server Registry Registration
 			LocateRegistry.createRegistry(Registry.REGISTRY_PORT);
 			
@@ -51,7 +51,7 @@ public class Mark {
 			
 			registry.rebind("Seapal_Mark", stub);
 			System.out.println("Object bound to Registry.");
-		*/
+		
 			MarkTUI tui = new MarkTUI(controller);
 			
 			InputStreamReader isr = new InputStreamReader(System.in, "UTF-8");

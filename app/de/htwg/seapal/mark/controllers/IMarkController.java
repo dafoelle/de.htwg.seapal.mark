@@ -7,7 +7,7 @@ import java.util.UUID;
 import de.htwg.seapal.common.observer.IObservable;
 import de.htwg.seapal.mark.models.IMark;
 
-public interface IMarkController extends IObservable, IHelperRemote {
+public interface IMarkController extends /*IObservable,*/ IHelperRemote {
 
 	Map<String,String> getMarks() throws RemoteException;
 	
@@ -41,6 +41,6 @@ public interface IMarkController extends IObservable, IHelperRemote {
 	
 	String getString(UUID id) throws RemoteException;
 
-	IMark getMark(UUID id);
+	IMark getMark(UUID id) throws RemoteException;
 
 }

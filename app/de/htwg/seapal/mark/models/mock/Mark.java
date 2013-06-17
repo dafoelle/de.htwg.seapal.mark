@@ -15,7 +15,7 @@ public class Mark implements IMark{
 	@Id 
 	@GeneratedValue
 	private String id;
-	private String rev;
+	private String revision;
 	
 	@Override
 	@JsonProperty("_id")
@@ -32,13 +32,13 @@ public class Mark implements IMark{
 	@Override
 	@JsonProperty("_rev")
 	public String getRevision() {
-		return this.rev;
+		return this.revision;
 	}
 
 	@Override
 	@JsonProperty("_rev")
 	public void setRevision(String rev) {
-		this.rev = rev;
+		this.revision = rev;
 	}
 	
 	@Override

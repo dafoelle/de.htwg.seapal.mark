@@ -19,7 +19,7 @@ public class MarkTUI implements Plugin, IObserver{
 	@Inject
 	public MarkTUI(IMarkController controller) {
 		this.controller = controller;
-		controller.addObserver(this);
+		//controller.addObserver(this);
 	}
 
 	public void update(Event e) {
