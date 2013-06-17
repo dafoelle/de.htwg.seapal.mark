@@ -2,14 +2,43 @@ package de.htwg.seapal.mark.models.mock;
 
 import java.util.UUID;
 
+import javax.persistence.GeneratedValue;
+import javax.persistence.Id;
+
+import org.codehaus.jackson.annotate.JsonProperty;
+
 import de.htwg.seapal.mark.models.IMark;
 
 
 public class Mark implements IMark{
 	
-	@Override 
-	public UUID getId() {
-		return UUID.fromString("00000000-0000-0000-0000-000000000000");
+	@Id 
+	@GeneratedValue
+	private String id;
+	private String rev;
+	
+	@Override
+	@JsonProperty("_id")
+	public String getId() {
+		return this.id;
+	}
+
+	@Override
+	@JsonProperty("_id")
+	public void setId(String id) {
+		this.id = id;
+	}
+
+	@Override
+	@JsonProperty("_rev")
+	public String getRevision() {
+		return this.rev;
+	}
+
+	@Override
+	@JsonProperty("_rev")
+	public void setRevision(String rev) {
+		this.rev = rev;
 	}
 	
 	@Override
@@ -83,5 +112,7 @@ public class Mark implements IMark{
 	@Override
 	public void setFunction(String function) {
 	}
+
+	
 
 }

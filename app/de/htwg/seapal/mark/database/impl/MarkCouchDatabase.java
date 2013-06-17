@@ -33,7 +33,7 @@ public class MarkCouchDatabase implements IMarkDatabase {
 	}
 	
 	@Override
-	public UUID newMark() {
+	public String newMark() {
 		Mark mark = new Mark();
 		try {
 			db.create(mark.getId().toString(),mark);

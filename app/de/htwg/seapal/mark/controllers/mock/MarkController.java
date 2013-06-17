@@ -23,7 +23,7 @@ public class MarkController extends Observable implements IMarkController {
 	}
 
 	@Override
-	public UUID newMark() {
+	public String newMark() {
 		return mark.getId();
 	}
 

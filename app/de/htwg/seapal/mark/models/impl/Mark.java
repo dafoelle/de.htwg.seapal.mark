@@ -5,18 +5,22 @@ import java.util.UUID;
 import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
-import javax.persistence.GenerationType;
 import javax.persistence.Id;
 
 import org.codehaus.jackson.annotate.JsonProperty;
+
+import com.google.inject.Inject;
 
 import de.htwg.seapal.mark.models.IMark;
 
 @Entity
 public class Mark implements IMark{
 	
-	@Id @GeneratedValue(strategy=GenerationType.AUTO)
-	private UUID id = null;
+	@Id 
+	@GeneratedValue
+	private String id;
+	private String rev;
+	
 	@Column
 	protected String name="n.a.";
 	@Column
@@ -34,8 +38,9 @@ public class Mark implements IMark{
 	@Column
 	protected String function = "n.a."; 
 
+	@Inject
 	public Mark() {
-		this.id = UUID.randomUUID();
+		this.id = UUID.randomUUID().toString();
 	}
 	
 	@Override
@@ -136,24 +141,26 @@ public class Mark implements IMark{
 
 	@Override
 	@JsonProperty("_id")
-	public UUID getId() {
-		return this.id;
-	}
-	
-	@JsonProperty("_id")
-	public void setId(UUID id) {
+	public void setId(String id) {
 		this.id = id;
 	}
+
+	/* Necessary for Couch DB */
 	
-	/* for couchDB */
-	private String rev_val;
-	
-	@JsonProperty("_rev")
-	public String getRev(){
-		return this.rev_val;
+	@Override
+	@JsonProperty("_id")
+	public String getId() {
+		return this.id;
+		//return "978c2d55-a7c5-485f-9584-f16f0c9ee25f";
 	}
+
 	@JsonProperty("_rev")
-	public void setRev(String rev){
-		this.rev_val = rev;
+	public String getRevision() {
+		return this.rev;
+	}
+
+	@JsonProperty("_rev")
+	public void setRevision(String rev) {
+		this.rev = rev;
 	}
 }

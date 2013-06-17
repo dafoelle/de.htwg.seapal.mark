@@ -21,7 +21,7 @@ public class MarkDb4oDatabase implements IMarkDatabase {
 	}
 
 	@Override
-	public UUID newMark() {
+	public String newMark() {
 		IMark mark = new Mark();
 		saveMark(mark);
 		return mark.getId();

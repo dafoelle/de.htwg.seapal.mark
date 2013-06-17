@@ -33,7 +33,7 @@ public class MarkController extends Observable implements IMarkController {
 	}
 
 	@Override
-	public UUID newMark() throws RemoteException {
+	public String newMark() throws RemoteException {
 		return db.newMark();
 	}
 

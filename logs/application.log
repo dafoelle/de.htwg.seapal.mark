@@ -1,162 +1,369 @@
-2013-06-02 13:29:41,064 - [INFO] - from play in main 
+2013-06-17 14:47:02,017 - [INFO] - from play in main 
 Listening for HTTP on /0:0:0:0:0:0:0:0:9000
 
-2013-06-02 13:29:54,576 - [INFO] - from play in New I/O  worker #1 
+2013-06-17 14:47:18,832 - [INFO] - from play in New I/O  worker #6 
 database [default] connected at jdbc:h2:mem:play
 
-2013-06-02 13:29:57,215 - [INFO] - from play in New I/O  worker #1 
+2013-06-17 14:47:23,013 - [INFO] - from play in New I/O  worker #6 
 Application started (Dev)
 
-2013-06-02 13:40:38,787 - [INFO] - from play in main 
-database [default] connected at jdbc:h2:mem:play
-
-2013-06-02 13:40:40,614 - [ERROR] - from com.avaje.ebeaninternal.server.deploy.meta.DeployBeanDescriptor in main 
+2013-06-17 14:48:47,528 - [ERROR] - from com.avaje.ebeaninternal.server.deploy.meta.DeployBeanDescriptor in main 
 Bean property de.htwg.seapal.mark.models.impl.Mark.rev_val has  missing readMethod  missing writeMethod . Should it be transient?
 
-2013-06-02 13:40:41,732 - [INFO] - from play in main 
-Application started (Dev)
+2013-06-17 14:48:49,373 - [ERROR] - from com.avaje.ebeaninternal.server.deploy.meta.DeployBeanDescriptor in main 
+Bean property de.htwg.seapal.mark.models.impl.Mark.rev_val has  missing readMethod  missing writeMethod . Should it be transient?
 
-2013-06-02 13:41:06,178 - [INFO] - from play in New I/O  worker #3 
+2013-06-17 15:02:46,883 - [INFO] - from play in main 
 database [default] connected at jdbc:h2:mem:play
 
-2013-06-02 13:41:06,730 - [INFO] - from play in New I/O  worker #3 
+2013-06-17 15:02:50,910 - [INFO] - from play in main 
 Application started (Dev)
 
-2013-06-02 13:41:07,054 - [ERROR] - from application in play-internal-execution-context-3 
-
-
-! @6efb2an2d - Internal server error, for (GET) [/marks/id?ea1f12ff-17b0-46a0-9c8e-e43e94b661f4] ->
-
-play.api.Application$$anon$1: Execution exception[[IllegalArgumentException: Invalid UUID string: id]]
-	at play.api.Application$class.handleError(Application.scala:289) ~[play_2.10.jar:2.1.0]
-	at play.api.DefaultApplication.handleError(Application.scala:383) [play_2.10.jar:2.1.0]
-	at play.core.server.netty.PlayDefaultUpstreamHandler$$anon$2$$anonfun$handle$1.apply(PlayDefaultUpstreamHandler.scala:132) [play_2.10.jar:2.1.0]
-	at play.core.server.netty.PlayDefaultUpstreamHandler$$anon$2$$anonfun$handle$1.apply(PlayDefaultUpstreamHandler.scala:128) [play_2.10.jar:2.1.0]
-	at play.api.libs.concurrent.PlayPromise$$anonfun$extend1$1.apply(Promise.scala:113) [play_2.10.jar:2.1.0]
-	at play.api.libs.concurrent.PlayPromise$$anonfun$extend1$1.apply(Promise.scala:113) [play_2.10.jar:2.1.0]
-	at play.api.libs.concurrent.PlayPromise$$anonfun$extend$1$$anonfun$apply$1.apply(Promise.scala:104) [play_2.10.jar:2.1.0]
-	at scala.concurrent.impl.Future$PromiseCompletingRunnable.liftedTree1$1(Future.scala:24) [scala-library.jar:na]
-	at scala.concurrent.impl.Future$PromiseCompletingRunnable.run(Future.scala:24) [scala-library.jar:na]
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145) [na:1.7.0_17]
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615) [na:1.7.0_17]
-	at java.lang.Thread.run(Thread.java:722) [na:1.7.0_17]
-java.lang.IllegalArgumentException: Invalid UUID string: id
-	at java.util.UUID.fromString(UUID.java:194) ~[na:1.7.0_17]
-	at de.htwg.seapal.mark.controllers.Application.getMark(Application.java:24) ~[na:na]
-	at mark.Routes$$anonfun$routes$1$$anonfun$applyOrElse$3$$anonfun$apply$3.apply(routes_routing.scala:69) ~[na:na]
-	at mark.Routes$$anonfun$routes$1$$anonfun$applyOrElse$3$$anonfun$apply$3.apply(routes_routing.scala:69) ~[na:na]
-	at play.core.Router$HandlerInvoker$$anon$6$$anon$2.invocation(Router.scala:141) ~[play_2.10.jar:2.1.0]
-	at play.core.Router$Routes$$anon$1.invocation(Router.scala:322) ~[play_2.10.jar:2.1.0]
-	at play.core.j.JavaAction$$anon$1.call(JavaAction.scala:31) ~[play_2.10.jar:2.1.0]
-	at play.core.j.JavaAction$$anon$2.apply(JavaAction.scala:74) ~[play_2.10.jar:2.1.0]
-	at play.core.j.JavaAction$$anon$2.apply(JavaAction.scala:73) ~[play_2.10.jar:2.1.0]
-	at play.libs.F$Promise$PromiseActor.onReceive(F.java:420) ~[play_2.10.jar:2.1.0]
-	at akka.actor.UntypedActor$$anonfun$receive$1.applyOrElse(UntypedActor.scala:159) ~[akka-actor_2.10.jar:na]
-	at akka.actor.ActorCell.receiveMessage(ActorCell.scala:425) ~[akka-actor_2.10.jar:na]
-	at akka.actor.ActorCell.invoke(ActorCell.scala:386) ~[akka-actor_2.10.jar:na]
-	at akka.dispatch.Mailbox.processMailbox(Mailbox.scala:230) ~[akka-actor_2.10.jar:na]
-	at akka.dispatch.Mailbox.run(Mailbox.scala:212) ~[akka-actor_2.10.jar:na]
-	at akka.dispatch.ForkJoinExecutorConfigurator$MailboxExecutionTask.exec(AbstractDispatcher.scala:502) ~[akka-actor_2.10.jar:na]
-	at scala.concurrent.forkjoin.ForkJoinTask.doExec(ForkJoinTask.java:262) ~[scala-library.jar:na]
-	at scala.concurrent.forkjoin.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:975) ~[scala-library.jar:na]
-	at scala.concurrent.forkjoin.ForkJoinPool.runWorker(ForkJoinPool.java:1478) ~[scala-library.jar:na]
-	at scala.concurrent.forkjoin.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:104) ~[scala-library.jar:na]
-
-2013-06-02 13:42:19,451 - [INFO] - from play in New I/O  worker #3 
+2013-06-17 15:03:48,245 - [INFO] - from play in main 
 database [default] connected at jdbc:h2:mem:play
 
-2013-06-02 13:42:20,058 - [INFO] - from play in New I/O  worker #3 
+2013-06-17 15:03:50,320 - [ERROR] - from com.avaje.ebeaninternal.server.deploy.meta.DeployBeanDescriptor in main 
+Bean property de.htwg.seapal.mark.models.impl.Mark.rev_val has  missing readMethod  missing writeMethod . Should it be transient?
+
+2013-06-17 15:03:51,770 - [INFO] - from play in main 
 Application started (Dev)
 
-2013-06-02 13:45:08,267 - [INFO] - from play in New I/O  worker #3 
+2013-06-17 15:06:15,666 - [INFO] - from play in main 
 database [default] connected at jdbc:h2:mem:play
 
-2013-06-02 13:45:08,850 - [INFO] - from play in New I/O  worker #3 
+2013-06-17 15:06:17,586 - [ERROR] - from com.avaje.ebeaninternal.server.deploy.meta.DeployBeanDescriptor in main 
+Bean property de.htwg.seapal.mark.models.impl.Mark.rev_val has  missing readMethod  missing writeMethod . Should it be transient?
+
+2013-06-17 15:06:18,560 - [INFO] - from play in main 
 Application started (Dev)
 
-2013-06-02 13:45:58,592 - [INFO] - from play in New I/O  worker #3 
+2013-06-17 15:22:59,057 - [INFO] - from play in main 
 database [default] connected at jdbc:h2:mem:play
 
-2013-06-02 13:45:59,129 - [INFO] - from play in New I/O  worker #3 
+2013-06-17 15:23:04,899 - [ERROR] - from com.avaje.ebeaninternal.server.deploy.meta.DeployBeanDescriptor in main 
+Bean property de.htwg.seapal.mark.models.impl.Mark.rev_val has  missing readMethod  missing writeMethod . Should it be transient?
+
+2013-06-17 15:23:06,232 - [INFO] - from play in main 
 Application started (Dev)
 
-2013-06-02 13:49:41,225 - [ERROR] - from application in New I/O  worker #3 
-
-
-! @6efb3e3i9 - Internal server error, for (GET) [/marks/mark?id=ea1f12ff-17b0-46a0-9c8e-e43e94b661f4] ->
-
-sbt.PlayExceptions$CompilationException: Compilation error[value getAllMarks is not a member of object de.htwg.seapal.mark.controllers.Application]
-	at sbt.PlayReloader$$anon$2$$anonfun$reload$2$$anonfun$apply$15$$anonfun$apply$16.apply(PlayReloader.scala:349) ~[na:na]
-	at sbt.PlayReloader$$anon$2$$anonfun$reload$2$$anonfun$apply$15$$anonfun$apply$16.apply(PlayReloader.scala:349) ~[na:na]
-	at scala.Option.map(Option.scala:133) ~[scala-library.jar:na]
-	at sbt.PlayReloader$$anon$2$$anonfun$reload$2$$anonfun$apply$15.apply(PlayReloader.scala:349) ~[na:na]
-	at sbt.PlayReloader$$anon$2$$anonfun$reload$2$$anonfun$apply$15.apply(PlayReloader.scala:346) ~[na:na]
-	at scala.Option.map(Option.scala:133) ~[scala-library.jar:na]
-	at sbt.PlayReloader$$anon$2$$anonfun$reload$2.apply(PlayReloader.scala:346) ~[na:na]
-	at sbt.PlayReloader$$anon$2$$anonfun$reload$2.apply(PlayReloader.scala:344) ~[na:na]
-	at scala.Either$LeftProjection.map(Either.scala:374) ~[na:na]
-	at sbt.PlayReloader$$anon$2.reload(PlayReloader.scala:344) ~[na:na]
-	at play.core.ReloadableApplication.get(ApplicationProvider.scala:98) ~[play_2.10.jar:2.1.0]
-	at play.core.server.Server$class.sendHandler$1(Server.scala:56) [play_2.10.jar:2.1.0]
-	at play.core.server.Server$$anonfun$getHandlerFor$4.apply(Server.scala:88) [play_2.10.jar:2.1.0]
-	at play.core.server.Server$$anonfun$getHandlerFor$4.apply(Server.scala:87) [play_2.10.jar:2.1.0]
-	at scala.util.Either$RightProjection.flatMap(Either.scala:523) [scala-library.jar:na]
-	at play.core.server.Server$class.getHandlerFor(Server.scala:87) [play_2.10.jar:2.1.0]
-	at play.core.server.NettyServer.getHandlerFor(NettyServer.scala:34) [play_2.10.jar:2.1.0]
-	at play.core.server.netty.PlayDefaultUpstreamHandler.messageReceived(PlayDefaultUpstreamHandler.scala:103) [play_2.10.jar:2.1.0]
-	at org.jboss.netty.channel.SimpleChannelUpstreamHandler.handleUpstream(SimpleChannelUpstreamHandler.java:75) [netty.jar:na]
-	at org.jboss.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:565) [netty.jar:na]
-	at org.jboss.netty.channel.DefaultChannelPipeline$DefaultChannelHandlerContext.sendUpstream(DefaultChannelPipeline.java:793) [netty.jar:na]
-	at org.jboss.netty.handler.codec.http.HttpContentDecoder.messageReceived(HttpContentDecoder.java:104) [netty.jar:na]
-	at org.jboss.netty.channel.SimpleChannelUpstreamHandler.handleUpstream(SimpleChannelUpstreamHandler.java:75) [netty.jar:na]
-	at org.jboss.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:565) [netty.jar:na]
-	at org.jboss.netty.channel.DefaultChannelPipeline$DefaultChannelHandlerContext.sendUpstream(DefaultChannelPipeline.java:793) [netty.jar:na]
-	at org.jboss.netty.channel.Channels.fireMessageReceived(Channels.java:296) [netty.jar:na]
-	at org.jboss.netty.handler.codec.frame.FrameDecoder.unfoldAndFireMessageReceived(FrameDecoder.java:455) [netty.jar:na]
-	at org.jboss.netty.handler.codec.replay.ReplayingDecoder.callDecode(ReplayingDecoder.java:538) [netty.jar:na]
-	at org.jboss.netty.handler.codec.replay.ReplayingDecoder.messageReceived(ReplayingDecoder.java:437) [netty.jar:na]
-	at org.jboss.netty.channel.SimpleChannelUpstreamHandler.handleUpstream(SimpleChannelUpstreamHandler.java:75) [netty.jar:na]
-	at org.jboss.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:565) [netty.jar:na]
-	at org.jboss.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:560) [netty.jar:na]
-	at org.jboss.netty.channel.Channels.fireMessageReceived(Channels.java:268) [netty.jar:na]
-	at org.jboss.netty.channel.Channels.fireMessageReceived(Channels.java:255) [netty.jar:na]
-	at org.jboss.netty.channel.socket.nio.NioWorker.read(NioWorker.java:84) [netty.jar:na]
-	at org.jboss.netty.channel.socket.nio.AbstractNioWorker.processSelectedKeys(AbstractNioWorker.java:472) [netty.jar:na]
-	at org.jboss.netty.channel.socket.nio.AbstractNioWorker.run(AbstractNioWorker.java:333) [netty.jar:na]
-	at org.jboss.netty.channel.socket.nio.NioWorker.run(NioWorker.java:35) [netty.jar:na]
-	at org.jboss.netty.util.ThreadRenamingRunnable.run(ThreadRenamingRunnable.java:102) [netty.jar:na]
-	at org.jboss.netty.util.internal.DeadLockProofWorker$1.run(DeadLockProofWorker.java:42) [netty.jar:na]
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145) [na:1.7.0_17]
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615) [na:1.7.0_17]
-	at java.lang.Thread.run(Thread.java:722) [na:1.7.0_17]
-
-2013-06-02 13:50:05,967 - [INFO] - from play in New I/O  worker #3 
+2013-06-17 15:24:12,161 - [INFO] - from play in main 
 database [default] connected at jdbc:h2:mem:play
 
-2013-06-02 13:50:06,631 - [INFO] - from play in New I/O  worker #3 
+2013-06-17 15:24:14,225 - [ERROR] - from com.avaje.ebeaninternal.server.deploy.meta.DeployBeanDescriptor in main 
+Bean property de.htwg.seapal.mark.models.impl.Mark.rev_val has  missing readMethod  missing writeMethod . Should it be transient?
+
+2013-06-17 15:24:15,484 - [INFO] - from play in main 
 Application started (Dev)
 
-2013-06-02 13:50:35,387 - [INFO] - from play in New I/O  worker #3 
+2013-06-17 15:25:55,834 - [INFO] - from play in main 
 database [default] connected at jdbc:h2:mem:play
 
-2013-06-02 13:50:36,005 - [INFO] - from play in New I/O  worker #3 
+2013-06-17 15:25:59,471 - [INFO] - from play in main 
 Application started (Dev)
 
-2013-06-02 13:51:13,545 - [INFO] - from play in New I/O  worker #3 
+2013-06-17 15:29:30,164 - [INFO] - from play in main 
 database [default] connected at jdbc:h2:mem:play
 
-2013-06-02 13:51:14,147 - [INFO] - from play in New I/O  worker #3 
+2013-06-17 15:29:32,922 - [INFO] - from play in main 
 Application started (Dev)
 
-2013-06-02 13:53:16,133 - [INFO] - from play in New I/O  worker #3 
+2013-06-17 15:31:40,655 - [INFO] - from play in main 
 database [default] connected at jdbc:h2:mem:play
 
-2013-06-02 13:53:16,771 - [INFO] - from play in New I/O  worker #3 
+2013-06-17 15:31:43,370 - [INFO] - from play in main 
 Application started (Dev)
 
-2013-06-02 13:59:36,647 - [INFO] - from play in New I/O  worker #3 
+2013-06-17 15:33:56,119 - [INFO] - from play in main 
 database [default] connected at jdbc:h2:mem:play
 
-2013-06-02 13:59:37,272 - [INFO] - from play in New I/O  worker #3 
+2013-06-17 15:33:59,596 - [INFO] - from play in main 
 Application started (Dev)
+
+2013-06-17 15:38:42,725 - [INFO] - from play in main 
+database [default] connected at jdbc:h2:mem:play
+
+2013-06-17 15:38:45,502 - [INFO] - from play in main 
+Application started (Dev)
+
+2013-06-17 15:59:51,673 - [INFO] - from play in main 
+database [default] connected at jdbc:h2:mem:play
+
+2013-06-17 15:59:54,763 - [INFO] - from play in main 
+Application started (Dev)
+
+2013-06-17 16:01:35,621 - [INFO] - from play in main 
+database [default] connected at jdbc:h2:mem:play
+
+2013-06-17 16:01:38,213 - [INFO] - from play in main 
+Application started (Dev)
+
+2013-06-17 17:15:03,231 - [INFO] - from play in main 
+database [default] connected at jdbc:h2:mem:play
+
+2013-06-17 17:15:10,206 - [INFO] - from play in main 
+Application started (Dev)
+
+2013-06-17 17:15:33,177 - [INFO] - from play in main 
+database [default] connected at jdbc:h2:mem:play
+
+2013-06-17 17:15:35,971 - [INFO] - from play in main 
+Application started (Dev)
+
+2013-06-17 17:30:08,681 - [INFO] - from play in main 
+database [default] connected at jdbc:h2:mem:play
+
+2013-06-17 17:30:10,467 - [ERROR] - from com.avaje.ebeaninternal.server.type.reflect.ImmutableMetaFactory in main 
+Was unable to use reflection to find a constructor and appropriate getters forimmutable type interface java.util.List.  The errors while looking for the getter methods follow:
+
+2013-06-17 17:30:10,494 - [ERROR] - from com.avaje.ebeaninternal.server.deploy.parse.DeployCreateProperties in main 
+Error with de.htwg.seapal.mark.models.impl.Mark field:revisions
+java.lang.RuntimeException: Unable to use reflection to build ImmutableMeta for interface java.util.List.  Associated Errors trying to find a constructor and getter methods have been logged
+	at com.avaje.ebeaninternal.server.type.reflect.ImmutableMetaFactory.createImmutableMeta(ImmutableMetaFactory.java:52) ~[avaje-ebeanorm-server.jar:na]
+	at com.avaje.ebeaninternal.server.type.DefaultTypeManager.recursiveCreateScalarDataReader(DefaultTypeManager.java:185) ~[avaje-ebeanorm-server.jar:na]
+	at com.avaje.ebeaninternal.server.type.reflect.ReflectionBasedTypeBuilder.buildCompound(ReflectionBasedTypeBuilder.java:54) ~[avaje-ebeanorm-server.jar:na]
+	at com.avaje.ebeaninternal.server.type.DefaultTypeManager.recursiveCreateScalarDataReader(DefaultTypeManager.java:191) ~[avaje-ebeanorm-server.jar:na]
+	at com.avaje.ebeaninternal.server.deploy.parse.DeployCreateProperties.createProp(DeployCreateProperties.java:313) [avaje-ebeanorm-server.jar:na]
+	at com.avaje.ebeaninternal.server.deploy.parse.DeployCreateProperties.createProp(DeployCreateProperties.java:341) [avaje-ebeanorm-server.jar:na]
+	at com.avaje.ebeaninternal.server.deploy.parse.DeployCreateProperties.createProperties(DeployCreateProperties.java:128) [avaje-ebeanorm-server.jar:na]
+	at com.avaje.ebeaninternal.server.deploy.parse.DeployCreateProperties.createProperties(DeployCreateProperties.java:157) [avaje-ebeanorm-server.jar:na]
+	at com.avaje.ebeaninternal.server.deploy.parse.DeployCreateProperties.createProperties(DeployCreateProperties.java:157) [avaje-ebeanorm-server.jar:na]
+	at com.avaje.ebeaninternal.server.deploy.parse.DeployCreateProperties.createProperties(DeployCreateProperties.java:157) [avaje-ebeanorm-server.jar:na]
+	at com.avaje.ebeaninternal.server.deploy.parse.DeployCreateProperties.createProperties(DeployCreateProperties.java:54) [avaje-ebeanorm-server.jar:na]
+	at com.avaje.ebeaninternal.server.deploy.BeanDescriptorManager.createDeployBeanInfo(BeanDescriptorManager.java:1022) [avaje-ebeanorm-server.jar:na]
+	at com.avaje.ebeaninternal.server.deploy.BeanDescriptorManager.readEntityDeploymentInitial(BeanDescriptorManager.java:533) [avaje-ebeanorm-server.jar:na]
+	at com.avaje.ebeaninternal.server.deploy.BeanDescriptorManager.deploy(BeanDescriptorManager.java:250) [avaje-ebeanorm-server.jar:na]
+	at com.avaje.ebeaninternal.server.core.InternalConfiguration.<init>(InternalConfiguration.java:124) [avaje-ebeanorm-server.jar:na]
+	at com.avaje.ebeaninternal.server.core.DefaultServerFactory.createServer(DefaultServerFactory.java:210) [avaje-ebeanorm-server.jar:na]
+	at com.avaje.ebeaninternal.server.core.DefaultServerFactory.createServer(DefaultServerFactory.java:64) [avaje-ebeanorm-server.jar:na]
+	at com.avaje.ebean.EbeanServerFactory.create(EbeanServerFactory.java:59) [avaje-ebeanorm-api.jar:na]
+	at play.db.ebean.EbeanPlugin.onStart(EbeanPlugin.java:79) [play-java-ebean_2.10.jar:2.1.0]
+	at play.api.Play$$anonfun$start$1$$anonfun$apply$mcV$sp$1.apply(Play.scala:63) [play_2.10.jar:2.1.0]
+	at play.api.Play$$anonfun$start$1$$anonfun$apply$mcV$sp$1.apply(Play.scala:63) [play_2.10.jar:2.1.0]
+	at scala.collection.immutable.List.foreach(List.scala:309) [scala-library.jar:na]
+	at play.api.Play$$anonfun$start$1.apply$mcV$sp(Play.scala:63) [play_2.10.jar:2.1.0]
+	at play.api.Play$$anonfun$start$1.apply(Play.scala:63) [play_2.10.jar:2.1.0]
+	at play.api.Play$$anonfun$start$1.apply(Play.scala:63) [play_2.10.jar:2.1.0]
+	at play.utils.Threads$.withContextClassLoader(Threads.scala:18) [play_2.10.jar:2.1.0]
+	at play.api.Play$.start(Play.scala:62) [play_2.10.jar:2.1.0]
+	at play.api.Play.start(Play.scala) [play_2.10.jar:2.1.0]
+	at de.htwg.seapal.mark.app.Mark.main(Mark.java:35) [.target/:na]
+
+2013-06-17 17:30:10,706 - [ERROR] - from com.avaje.ebeaninternal.server.deploy.meta.DeployBeanDescriptor in main 
+Bean property de.htwg.seapal.mark.models.impl.Mark.markId has  missing readMethod  missing writeMethod . Should it be transient?
+
+2013-06-17 17:30:10,829 - [ERROR] - from com.avaje.ebeaninternal.server.deploy.BeanDescriptorManager in main 
+Error in deployment
+javax.persistence.PersistenceException: Error with [de.htwg.seapal.mark.models.impl.Mark] I believe it is not enhanced but it's superClass [class org.ektorp.support.DesignDocument] is? (You are not allowed to mix enhancement in a single inheritance hierarchy)
+	at com.avaje.ebeaninternal.server.deploy.BeanDescriptorManager.setBeanReflect(BeanDescriptorManager.java:1374) ~[avaje-ebeanorm-server.jar:na]
+	at com.avaje.ebeaninternal.server.deploy.BeanDescriptorManager.createByteCode(BeanDescriptorManager.java:1142) ~[avaje-ebeanorm-server.jar:na]
+	at com.avaje.ebeaninternal.server.deploy.BeanDescriptorManager.readDeployAssociations(BeanDescriptorManager.java:1058) ~[avaje-ebeanorm-server.jar:na]
+	at com.avaje.ebeaninternal.server.deploy.BeanDescriptorManager.readEntityDeploymentAssociations(BeanDescriptorManager.java:565) ~[avaje-ebeanorm-server.jar:na]
+	at com.avaje.ebeaninternal.server.deploy.BeanDescriptorManager.deploy(BeanDescriptorManager.java:252) ~[avaje-ebeanorm-server.jar:na]
+	at com.avaje.ebeaninternal.server.core.InternalConfiguration.<init>(InternalConfiguration.java:124) [avaje-ebeanorm-server.jar:na]
+	at com.avaje.ebeaninternal.server.core.DefaultServerFactory.createServer(DefaultServerFactory.java:210) [avaje-ebeanorm-server.jar:na]
+	at com.avaje.ebeaninternal.server.core.DefaultServerFactory.createServer(DefaultServerFactory.java:64) [avaje-ebeanorm-server.jar:na]
+	at com.avaje.ebean.EbeanServerFactory.create(EbeanServerFactory.java:59) [avaje-ebeanorm-api.jar:na]
+	at play.db.ebean.EbeanPlugin.onStart(EbeanPlugin.java:79) [play-java-ebean_2.10.jar:2.1.0]
+	at play.api.Play$$anonfun$start$1$$anonfun$apply$mcV$sp$1.apply(Play.scala:63) [play_2.10.jar:2.1.0]
+	at play.api.Play$$anonfun$start$1$$anonfun$apply$mcV$sp$1.apply(Play.scala:63) [play_2.10.jar:2.1.0]
+	at scala.collection.immutable.List.foreach(List.scala:309) [scala-library.jar:na]
+	at play.api.Play$$anonfun$start$1.apply$mcV$sp(Play.scala:63) [play_2.10.jar:2.1.0]
+	at play.api.Play$$anonfun$start$1.apply(Play.scala:63) [play_2.10.jar:2.1.0]
+	at play.api.Play$$anonfun$start$1.apply(Play.scala:63) [play_2.10.jar:2.1.0]
+	at play.utils.Threads$.withContextClassLoader(Threads.scala:18) [play_2.10.jar:2.1.0]
+	at play.api.Play$.start(Play.scala:62) [play_2.10.jar:2.1.0]
+	at play.api.Play.start(Play.scala) [play_2.10.jar:2.1.0]
+	at de.htwg.seapal.mark.app.Mark.main(Mark.java:35) [.target/:na]
+Caused by: java.lang.IllegalArgumentException: field [id] not found in [de.htwg.seapal.mark.models.impl.Mark$$EntityBean$default][markId, name, latitude, longitude, markType, IsDay, IsNight, color, function, revision]
+	at com.avaje.ebeaninternal.server.reflect.EnhanceBeanReflect.getFieldIndex(EnhanceBeanReflect.java:139) ~[avaje-ebeanorm-server.jar:na]
+	at com.avaje.ebeaninternal.server.reflect.EnhanceBeanReflect.getGetter(EnhanceBeanReflect.java:143) ~[avaje-ebeanorm-server.jar:na]
+	at com.avaje.ebeaninternal.server.deploy.BeanDescriptorManager.setBeanReflect(BeanDescriptorManager.java:1358) ~[avaje-ebeanorm-server.jar:na]
+	... 19 common frames omitted
+
+2013-06-17 17:31:33,385 - [INFO] - from play in main 
+database [default] connected at jdbc:h2:mem:play
+
+2013-06-17 17:31:34,813 - [ERROR] - from com.avaje.ebeaninternal.server.type.reflect.ImmutableMetaFactory in main 
+Was unable to use reflection to find a constructor and appropriate getters forimmutable type interface java.util.List.  The errors while looking for the getter methods follow:
+
+2013-06-17 17:31:34,826 - [ERROR] - from com.avaje.ebeaninternal.server.deploy.parse.DeployCreateProperties in main 
+Error with de.htwg.seapal.mark.models.impl.Mark field:revisions
+java.lang.RuntimeException: Unable to use reflection to build ImmutableMeta for interface java.util.List.  Associated Errors trying to find a constructor and getter methods have been logged
+	at com.avaje.ebeaninternal.server.type.reflect.ImmutableMetaFactory.createImmutableMeta(ImmutableMetaFactory.java:52) ~[avaje-ebeanorm-server.jar:na]
+	at com.avaje.ebeaninternal.server.type.DefaultTypeManager.recursiveCreateScalarDataReader(DefaultTypeManager.java:185) ~[avaje-ebeanorm-server.jar:na]
+	at com.avaje.ebeaninternal.server.type.reflect.ReflectionBasedTypeBuilder.buildCompound(ReflectionBasedTypeBuilder.java:54) ~[avaje-ebeanorm-server.jar:na]
+	at com.avaje.ebeaninternal.server.type.DefaultTypeManager.recursiveCreateScalarDataReader(DefaultTypeManager.java:191) ~[avaje-ebeanorm-server.jar:na]
+	at com.avaje.ebeaninternal.server.deploy.parse.DeployCreateProperties.createProp(DeployCreateProperties.java:313) [avaje-ebeanorm-server.jar:na]
+	at com.avaje.ebeaninternal.server.deploy.parse.DeployCreateProperties.createProp(DeployCreateProperties.java:341) [avaje-ebeanorm-server.jar:na]
+	at com.avaje.ebeaninternal.server.deploy.parse.DeployCreateProperties.createProperties(DeployCreateProperties.java:128) [avaje-ebeanorm-server.jar:na]
+	at com.avaje.ebeaninternal.server.deploy.parse.DeployCreateProperties.createProperties(DeployCreateProperties.java:157) [avaje-ebeanorm-server.jar:na]
+	at com.avaje.ebeaninternal.server.deploy.parse.DeployCreateProperties.createProperties(DeployCreateProperties.java:157) [avaje-ebeanorm-server.jar:na]
+	at com.avaje.ebeaninternal.server.deploy.parse.DeployCreateProperties.createProperties(DeployCreateProperties.java:157) [avaje-ebeanorm-server.jar:na]
+	at com.avaje.ebeaninternal.server.deploy.parse.DeployCreateProperties.createProperties(DeployCreateProperties.java:54) [avaje-ebeanorm-server.jar:na]
+	at com.avaje.ebeaninternal.server.deploy.BeanDescriptorManager.createDeployBeanInfo(BeanDescriptorManager.java:1022) [avaje-ebeanorm-server.jar:na]
+	at com.avaje.ebeaninternal.server.deploy.BeanDescriptorManager.readEntityDeploymentInitial(BeanDescriptorManager.java:533) [avaje-ebeanorm-server.jar:na]
+	at com.avaje.ebeaninternal.server.deploy.BeanDescriptorManager.deploy(BeanDescriptorManager.java:250) [avaje-ebeanorm-server.jar:na]
+	at com.avaje.ebeaninternal.server.core.InternalConfiguration.<init>(InternalConfiguration.java:124) [avaje-ebeanorm-server.jar:na]
+	at com.avaje.ebeaninternal.server.core.DefaultServerFactory.createServer(DefaultServerFactory.java:210) [avaje-ebeanorm-server.jar:na]
+	at com.avaje.ebeaninternal.server.core.DefaultServerFactory.createServer(DefaultServerFactory.java:64) [avaje-ebeanorm-server.jar:na]
+	at com.avaje.ebean.EbeanServerFactory.create(EbeanServerFactory.java:59) [avaje-ebeanorm-api.jar:na]
+	at play.db.ebean.EbeanPlugin.onStart(EbeanPlugin.java:79) [play-java-ebean_2.10.jar:2.1.0]
+	at play.api.Play$$anonfun$start$1$$anonfun$apply$mcV$sp$1.apply(Play.scala:63) [play_2.10.jar:2.1.0]
+	at play.api.Play$$anonfun$start$1$$anonfun$apply$mcV$sp$1.apply(Play.scala:63) [play_2.10.jar:2.1.0]
+	at scala.collection.immutable.List.foreach(List.scala:309) [scala-library.jar:na]
+	at play.api.Play$$anonfun$start$1.apply$mcV$sp(Play.scala:63) [play_2.10.jar:2.1.0]
+	at play.api.Play$$anonfun$start$1.apply(Play.scala:63) [play_2.10.jar:2.1.0]
+	at play.api.Play$$anonfun$start$1.apply(Play.scala:63) [play_2.10.jar:2.1.0]
+	at play.utils.Threads$.withContextClassLoader(Threads.scala:18) [play_2.10.jar:2.1.0]
+	at play.api.Play$.start(Play.scala:62) [play_2.10.jar:2.1.0]
+	at play.api.Play.start(Play.scala) [play_2.10.jar:2.1.0]
+	at de.htwg.seapal.mark.app.Mark.main(Mark.java:35) [.target/:na]
+
+2013-06-17 17:31:35,014 - [ERROR] - from com.avaje.ebeaninternal.server.deploy.meta.DeployBeanDescriptor in main 
+Bean property de.htwg.seapal.mark.models.impl.Mark.markId has  missing readMethod  missing writeMethod . Should it be transient?
+
+2013-06-17 17:31:35,138 - [ERROR] - from com.avaje.ebeaninternal.server.deploy.BeanDescriptorManager in main 
+Error in deployment
+javax.persistence.PersistenceException: Error with [de.htwg.seapal.mark.models.impl.Mark] I believe it is not enhanced but it's superClass [class org.ektorp.support.DesignDocument] is? (You are not allowed to mix enhancement in a single inheritance hierarchy)
+	at com.avaje.ebeaninternal.server.deploy.BeanDescriptorManager.setBeanReflect(BeanDescriptorManager.java:1374) ~[avaje-ebeanorm-server.jar:na]
+	at com.avaje.ebeaninternal.server.deploy.BeanDescriptorManager.createByteCode(BeanDescriptorManager.java:1142) ~[avaje-ebeanorm-server.jar:na]
+	at com.avaje.ebeaninternal.server.deploy.BeanDescriptorManager.readDeployAssociations(BeanDescriptorManager.java:1058) ~[avaje-ebeanorm-server.jar:na]
+	at com.avaje.ebeaninternal.server.deploy.BeanDescriptorManager.readEntityDeploymentAssociations(BeanDescriptorManager.java:565) ~[avaje-ebeanorm-server.jar:na]
+	at com.avaje.ebeaninternal.server.deploy.BeanDescriptorManager.deploy(BeanDescriptorManager.java:252) ~[avaje-ebeanorm-server.jar:na]
+	at com.avaje.ebeaninternal.server.core.InternalConfiguration.<init>(InternalConfiguration.java:124) [avaje-ebeanorm-server.jar:na]
+	at com.avaje.ebeaninternal.server.core.DefaultServerFactory.createServer(DefaultServerFactory.java:210) [avaje-ebeanorm-server.jar:na]
+	at com.avaje.ebeaninternal.server.core.DefaultServerFactory.createServer(DefaultServerFactory.java:64) [avaje-ebeanorm-server.jar:na]
+	at com.avaje.ebean.EbeanServerFactory.create(EbeanServerFactory.java:59) [avaje-ebeanorm-api.jar:na]
+	at play.db.ebean.EbeanPlugin.onStart(EbeanPlugin.java:79) [play-java-ebean_2.10.jar:2.1.0]
+	at play.api.Play$$anonfun$start$1$$anonfun$apply$mcV$sp$1.apply(Play.scala:63) [play_2.10.jar:2.1.0]
+	at play.api.Play$$anonfun$start$1$$anonfun$apply$mcV$sp$1.apply(Play.scala:63) [play_2.10.jar:2.1.0]
+	at scala.collection.immutable.List.foreach(List.scala:309) [scala-library.jar:na]
+	at play.api.Play$$anonfun$start$1.apply$mcV$sp(Play.scala:63) [play_2.10.jar:2.1.0]
+	at play.api.Play$$anonfun$start$1.apply(Play.scala:63) [play_2.10.jar:2.1.0]
+	at play.api.Play$$anonfun$start$1.apply(Play.scala:63) [play_2.10.jar:2.1.0]
+	at play.utils.Threads$.withContextClassLoader(Threads.scala:18) [play_2.10.jar:2.1.0]
+	at play.api.Play$.start(Play.scala:62) [play_2.10.jar:2.1.0]
+	at play.api.Play.start(Play.scala) [play_2.10.jar:2.1.0]
+	at de.htwg.seapal.mark.app.Mark.main(Mark.java:35) [.target/:na]
+Caused by: java.lang.IllegalArgumentException: field [id] not found in [de.htwg.seapal.mark.models.impl.Mark$$EntityBean$default][markId, name, latitude, longitude, markType, IsDay, IsNight, color, function]
+	at com.avaje.ebeaninternal.server.reflect.EnhanceBeanReflect.getFieldIndex(EnhanceBeanReflect.java:139) ~[avaje-ebeanorm-server.jar:na]
+	at com.avaje.ebeaninternal.server.reflect.EnhanceBeanReflect.getGetter(EnhanceBeanReflect.java:143) ~[avaje-ebeanorm-server.jar:na]
+	at com.avaje.ebeaninternal.server.deploy.BeanDescriptorManager.setBeanReflect(BeanDescriptorManager.java:1358) ~[avaje-ebeanorm-server.jar:na]
+	... 19 common frames omitted
+
+2013-06-17 17:32:30,219 - [INFO] - from play in main 
+database [default] connected at jdbc:h2:mem:play
+
+2013-06-17 17:32:31,934 - [ERROR] - from com.avaje.ebeaninternal.server.type.reflect.ImmutableMetaFactory in main 
+Was unable to use reflection to find a constructor and appropriate getters forimmutable type interface java.util.List.  The errors while looking for the getter methods follow:
+
+2013-06-17 17:32:31,950 - [ERROR] - from com.avaje.ebeaninternal.server.deploy.parse.DeployCreateProperties in main 
+Error with de.htwg.seapal.mark.models.impl.Mark field:revisions
+java.lang.RuntimeException: Unable to use reflection to build ImmutableMeta for interface java.util.List.  Associated Errors trying to find a constructor and getter methods have been logged
+	at com.avaje.ebeaninternal.server.type.reflect.ImmutableMetaFactory.createImmutableMeta(ImmutableMetaFactory.java:52) ~[avaje-ebeanorm-server.jar:na]
+	at com.avaje.ebeaninternal.server.type.DefaultTypeManager.recursiveCreateScalarDataReader(DefaultTypeManager.java:185) ~[avaje-ebeanorm-server.jar:na]
+	at com.avaje.ebeaninternal.server.type.reflect.ReflectionBasedTypeBuilder.buildCompound(ReflectionBasedTypeBuilder.java:54) ~[avaje-ebeanorm-server.jar:na]
+	at com.avaje.ebeaninternal.server.type.DefaultTypeManager.recursiveCreateScalarDataReader(DefaultTypeManager.java:191) ~[avaje-ebeanorm-server.jar:na]
+	at com.avaje.ebeaninternal.server.deploy.parse.DeployCreateProperties.createProp(DeployCreateProperties.java:313) [avaje-ebeanorm-server.jar:na]
+	at com.avaje.ebeaninternal.server.deploy.parse.DeployCreateProperties.createProp(DeployCreateProperties.java:341) [avaje-ebeanorm-server.jar:na]
+	at com.avaje.ebeaninternal.server.deploy.parse.DeployCreateProperties.createProperties(DeployCreateProperties.java:128) [avaje-ebeanorm-server.jar:na]
+	at com.avaje.ebeaninternal.server.deploy.parse.DeployCreateProperties.createProperties(DeployCreateProperties.java:157) [avaje-ebeanorm-server.jar:na]
+	at com.avaje.ebeaninternal.server.deploy.parse.DeployCreateProperties.createProperties(DeployCreateProperties.java:157) [avaje-ebeanorm-server.jar:na]
+	at com.avaje.ebeaninternal.server.deploy.parse.DeployCreateProperties.createProperties(DeployCreateProperties.java:157) [avaje-ebeanorm-server.jar:na]
+	at com.avaje.ebeaninternal.server.deploy.parse.DeployCreateProperties.createProperties(DeployCreateProperties.java:54) [avaje-ebeanorm-server.jar:na]
+	at com.avaje.ebeaninternal.server.deploy.BeanDescriptorManager.createDeployBeanInfo(BeanDescriptorManager.java:1022) [avaje-ebeanorm-server.jar:na]
+	at com.avaje.ebeaninternal.server.deploy.BeanDescriptorManager.readEntityDeploymentInitial(BeanDescriptorManager.java:533) [avaje-ebeanorm-server.jar:na]
+	at com.avaje.ebeaninternal.server.deploy.BeanDescriptorManager.deploy(BeanDescriptorManager.java:250) [avaje-ebeanorm-server.jar:na]
+	at com.avaje.ebeaninternal.server.core.InternalConfiguration.<init>(InternalConfiguration.java:124) [avaje-ebeanorm-server.jar:na]
+	at com.avaje.ebeaninternal.server.core.DefaultServerFactory.createServer(DefaultServerFactory.java:210) [avaje-ebeanorm-server.jar:na]
+	at com.avaje.ebeaninternal.server.core.DefaultServerFactory.createServer(DefaultServerFactory.java:64) [avaje-ebeanorm-server.jar:na]
+	at com.avaje.ebean.EbeanServerFactory.create(EbeanServerFactory.java:59) [avaje-ebeanorm-api.jar:na]
+	at play.db.ebean.EbeanPlugin.onStart(EbeanPlugin.java:79) [play-java-ebean_2.10.jar:2.1.0]
+	at play.api.Play$$anonfun$start$1$$anonfun$apply$mcV$sp$1.apply(Play.scala:63) [play_2.10.jar:2.1.0]
+	at play.api.Play$$anonfun$start$1$$anonfun$apply$mcV$sp$1.apply(Play.scala:63) [play_2.10.jar:2.1.0]
+	at scala.collection.immutable.List.foreach(List.scala:309) [scala-library.jar:na]
+	at play.api.Play$$anonfun$start$1.apply$mcV$sp(Play.scala:63) [play_2.10.jar:2.1.0]
+	at play.api.Play$$anonfun$start$1.apply(Play.scala:63) [play_2.10.jar:2.1.0]
+	at play.api.Play$$anonfun$start$1.apply(Play.scala:63) [play_2.10.jar:2.1.0]
+	at play.utils.Threads$.withContextClassLoader(Threads.scala:18) [play_2.10.jar:2.1.0]
+	at play.api.Play$.start(Play.scala:62) [play_2.10.jar:2.1.0]
+	at play.api.Play.start(Play.scala) [play_2.10.jar:2.1.0]
+	at de.htwg.seapal.mark.app.Mark.main(Mark.java:35) [.target/:na]
+
+2013-06-17 17:32:32,127 - [ERROR] - from com.avaje.ebeaninternal.server.deploy.meta.DeployBeanDescriptor in main 
+Bean property de.htwg.seapal.mark.models.impl.Mark.markId has  missing readMethod  missing writeMethod . Should it be transient?
+
+2013-06-17 17:32:32,228 - [ERROR] - from com.avaje.ebeaninternal.server.deploy.BeanDescriptorManager in main 
+Error in deployment
+javax.persistence.PersistenceException: Error with [de.htwg.seapal.mark.models.impl.Mark] I believe it is not enhanced but it's superClass [class org.ektorp.support.DesignDocument] is? (You are not allowed to mix enhancement in a single inheritance hierarchy)
+	at com.avaje.ebeaninternal.server.deploy.BeanDescriptorManager.setBeanReflect(BeanDescriptorManager.java:1374) ~[avaje-ebeanorm-server.jar:na]
+	at com.avaje.ebeaninternal.server.deploy.BeanDescriptorManager.createByteCode(BeanDescriptorManager.java:1142) ~[avaje-ebeanorm-server.jar:na]
+	at com.avaje.ebeaninternal.server.deploy.BeanDescriptorManager.readDeployAssociations(BeanDescriptorManager.java:1058) ~[avaje-ebeanorm-server.jar:na]
+	at com.avaje.ebeaninternal.server.deploy.BeanDescriptorManager.readEntityDeploymentAssociations(BeanDescriptorManager.java:565) ~[avaje-ebeanorm-server.jar:na]
+	at com.avaje.ebeaninternal.server.deploy.BeanDescriptorManager.deploy(BeanDescriptorManager.java:252) ~[avaje-ebeanorm-server.jar:na]
+	at com.avaje.ebeaninternal.server.core.InternalConfiguration.<init>(InternalConfiguration.java:124) [avaje-ebeanorm-server.jar:na]
+	at com.avaje.ebeaninternal.server.core.DefaultServerFactory.createServer(DefaultServerFactory.java:210) [avaje-ebeanorm-server.jar:na]
+	at com.avaje.ebeaninternal.server.core.DefaultServerFactory.createServer(DefaultServerFactory.java:64) [avaje-ebeanorm-server.jar:na]
+	at com.avaje.ebean.EbeanServerFactory.create(EbeanServerFactory.java:59) [avaje-ebeanorm-api.jar:na]
+	at play.db.ebean.EbeanPlugin.onStart(EbeanPlugin.java:79) [play-java-ebean_2.10.jar:2.1.0]
+	at play.api.Play$$anonfun$start$1$$anonfun$apply$mcV$sp$1.apply(Play.scala:63) [play_2.10.jar:2.1.0]
+	at play.api.Play$$anonfun$start$1$$anonfun$apply$mcV$sp$1.apply(Play.scala:63) [play_2.10.jar:2.1.0]
+	at scala.collection.immutable.List.foreach(List.scala:309) [scala-library.jar:na]
+	at play.api.Play$$anonfun$start$1.apply$mcV$sp(Play.scala:63) [play_2.10.jar:2.1.0]
+	at play.api.Play$$anonfun$start$1.apply(Play.scala:63) [play_2.10.jar:2.1.0]
+	at play.api.Play$$anonfun$start$1.apply(Play.scala:63) [play_2.10.jar:2.1.0]
+	at play.utils.Threads$.withContextClassLoader(Threads.scala:18) [play_2.10.jar:2.1.0]
+	at play.api.Play$.start(Play.scala:62) [play_2.10.jar:2.1.0]
+	at play.api.Play.start(Play.scala) [play_2.10.jar:2.1.0]
+	at de.htwg.seapal.mark.app.Mark.main(Mark.java:35) [.target/:na]
+Caused by: java.lang.IllegalArgumentException: field [id] not found in [de.htwg.seapal.mark.models.impl.Mark$$EntityBean$default][markId, name, latitude, longitude, markType, IsDay, IsNight, color, function]
+	at com.avaje.ebeaninternal.server.reflect.EnhanceBeanReflect.getFieldIndex(EnhanceBeanReflect.java:139) ~[avaje-ebeanorm-server.jar:na]
+	at com.avaje.ebeaninternal.server.reflect.EnhanceBeanReflect.getGetter(EnhanceBeanReflect.java:143) ~[avaje-ebeanorm-server.jar:na]
+	at com.avaje.ebeaninternal.server.deploy.BeanDescriptorManager.setBeanReflect(BeanDescriptorManager.java:1358) ~[avaje-ebeanorm-server.jar:na]
+	... 19 common frames omitted
+
+2013-06-17 17:32:50,028 - [INFO] - from play in main 
+database [default] connected at jdbc:h2:mem:play
+
+2013-06-17 17:32:51,314 - [ERROR] - from com.avaje.ebeaninternal.server.deploy.meta.DeployBeanDescriptor in main 
+Bean property de.htwg.seapal.mark.models.impl.Mark.markId has  missing readMethod  missing writeMethod . Should it be transient?
+
+2013-06-17 17:32:52,440 - [INFO] - from play in main 
+Application started (Dev)
+
+2013-06-17 17:34:09,951 - [INFO] - from play in main 
+database [default] connected at jdbc:h2:mem:play
+
+2013-06-17 17:34:11,752 - [ERROR] - from com.avaje.ebeaninternal.server.deploy.meta.DeployBeanDescriptor in main 
+Bean property de.htwg.seapal.mark.models.impl.Mark.id has  missing readMethod  missing writeMethod . Should it be transient?
+
+2013-06-17 17:34:12,718 - [INFO] - from play in main 
+Application started (Dev)
+
+2013-06-17 17:40:24,300 - [INFO] - from play in main 
+database [default] connected at jdbc:h2:mem:play
+
+2013-06-17 17:40:27,192 - [INFO] - from play in main 
+Application started (Dev)
+
+2013-06-17 17:53:27,885 - [INFO] - from play in main 
+database [default] connected at jdbc:h2:mem:play
+
+2013-06-17 17:53:29,766 - [ERROR] - from com.avaje.ebeaninternal.server.deploy.meta.DeployBeanDescriptor in main 
+Bean property de.htwg.seapal.mark.models.impl.Mark.rev has  missing readMethod  missing writeMethod . Should it be transient?
+
+2013-06-17 17:53:30,920 - [INFO] - from play in main 
+Application started (Dev)
+
+2013-06-17 17:57:24,945 - [ERROR] - from com.avaje.ebeaninternal.server.deploy.meta.DeployBeanDescriptor in main 
+Bean property de.htwg.seapal.mark.models.impl.Mark.rev has  missing readMethod  missing writeMethod . Should it be transient?
+
+2013-06-17 17:57:26,701 - [ERROR] - from com.avaje.ebeaninternal.server.deploy.meta.DeployBeanDescriptor in main 
+Bean property de.htwg.seapal.mark.models.impl.Mark.rev has  missing readMethod  missing writeMethod . Should it be transient?
+
+2013-06-17 17:58:02,196 - [ERROR] - from com.avaje.ebeaninternal.server.deploy.meta.DeployBeanDescriptor in main 
+Bean property de.htwg.seapal.mark.models.impl.Mark.rev has  missing readMethod  missing writeMethod . Should it be transient?
+
+2013-06-17 17:58:04,046 - [ERROR] - from com.avaje.ebeaninternal.server.deploy.meta.DeployBeanDescriptor in main 
+Bean property de.htwg.seapal.mark.models.impl.Mark.rev has  missing readMethod  missing writeMethod . Should it be transient?
 

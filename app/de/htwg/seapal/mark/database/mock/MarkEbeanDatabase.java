@@ -14,7 +14,7 @@ import de.htwg.seapal.mark.models.mock.Mark;
 public class MarkEbeanDatabase implements IMarkDatabase {
 
 	@Override
-	public UUID newMark() {
+	public String newMark() {
 		Mark mark = new Mark();
 		Ebean.save(mark);
 		return mark.getId();

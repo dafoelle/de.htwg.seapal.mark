@@ -1,10 +1,21 @@
 package de.htwg.seapal.mark.models;
 
-import java.util.UUID;
+import java.io.Serializable;
+import org.codehaus.jackson.annotate.JsonProperty;
 
-public interface IMark {
+public interface IMark extends Serializable {
 	
-	UUID getId();
+	@JsonProperty("_id")
+    String getId();
+
+	@JsonProperty("_id")
+    void setId(String id);
+
+    @JsonProperty("_rev")
+    String getRevision();
+   
+    @JsonProperty("_rev")
+    void setRevision(String rev);
 	
 	String getName();
 	void setName(String name);

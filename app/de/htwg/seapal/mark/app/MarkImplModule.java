@@ -14,6 +14,7 @@ public class MarkImplModule extends AbstractModule {
 		bind(IMarkController.class).to(de.htwg.seapal.mark.controllers.impl.MarkController.class);	
 		bind(IMarkDatabase.class).to(de.htwg.seapal.mark.database.impl.MarkCouchDatabase.class);
 		//bind(IMarkDatabase.class).to(de.htwg.seapal.mark.database.impl.MarkEbeanDatabase.class);
+		//bind(IMarkDatabase.class).to(de.htwg.seapal.mark.database.impl.MarkDb4oDatabase.class);
 	}
 
 }

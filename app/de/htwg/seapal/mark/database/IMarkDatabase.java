@@ -8,7 +8,7 @@ import de.htwg.seapal.mark.models.impl.Mark;
 
 public interface IMarkDatabase {
 
-	UUID newMark();
+	String newMark();
 
 	void saveMark(IMark mark);
 

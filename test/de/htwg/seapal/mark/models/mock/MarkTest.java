@@ -2,8 +2,6 @@ package de.htwg.seapal.mark.models.mock;
 
 import static org.junit.Assert.*;
 
-import java.util.UUID;
-
 import org.junit.Before;
 import org.junit.Test;
 
@@ -20,9 +18,7 @@ public class MarkTest {
 	
 	@Test
 	public void testGetId() {
-		UUID tmpId = UUID.fromString("00000000-0000-0000-0000-000000000000");
-		UUID res = mark.getId();
-		assertEquals(tmpId.compareTo(res), 0);
+		assertEquals(null, mark.getId());
 	}
 	
 	@Test

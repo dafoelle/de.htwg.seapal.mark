@@ -11,7 +11,7 @@ public interface IMarkController extends IObservable, IHelperRemote {
 
 	Map<String,String> getMarks() throws RemoteException;
 	
-	UUID newMark() throws RemoteException;
+	String newMark() throws RemoteException;
 	void deleteMark(UUID id) throws RemoteException;
 	void closeDB() throws RemoteException;
 	

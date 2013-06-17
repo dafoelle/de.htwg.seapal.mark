@@ -38,8 +38,7 @@ public class MarkTUI implements Plugin, IObserver{
 				selectedMark = scanner.next();
 			}			
 			if(line.equalsIgnoreCase("new")) {
-				UUID mark = controller.newMark();
-				selectedMark = mark.toString();
+				selectedMark= controller.newMark();	
 			}		
 			if (line.equalsIgnoreCase("quit")) {
 				continu = false;
